@@ -1,0 +1,171 @@
+opening 10 connection(s) to localhost...
+listening on port '30000'
+listening to port 30000
+client has started
+10 DB worker threads have started
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "INSERT INTO order_line (ol_o_id, ol_d_id, ol_w_id, ol_number,
+			ol_i_id, ol_supply_w_id, ol_delivery_d,
+			ol_quantity, ol_amount, ol_dist_info)
+VALUES ($1, $2, $3, $4, $5, $6, NULL, $7, $8, $9)"
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16387
+WARNING:  failed to send ABORT PREPARED command to the node 16387
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16392
+WARNING:  failed to send ABORT PREPARED command to the node 16392
+WARNING:  failed to send xid to the node 16393
+WARNING:  failed to send ABORT PREPARED command to the node 16393
+WARNING:  failed to send xid to the node 16399
+WARNING:  failed to send ABORT PREPARED command to the node 16399
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16392
+WARNING:  failed to send ABORT PREPARED command to the node 16392
+WARNING:  failed to send xid to the node 16393
+WARNING:  failed to send ABORT PREPARED command to the node 16393
+WARNING:  failed to send xid to the node 16395
+WARNING:  failed to send ABORT PREPARED command to the node 16395
+WARNING:  failed to send xid to the node 16397
+WARNING:  failed to send ABORT PREPARED command to the node 16397
+WARNING:  failed to send xid to the node 16398
+WARNING:  failed to send ABORT PREPARED command to the node 16398
+WARNING:  failed to send xid to the node 16399
+WARNING:  failed to send ABORT PREPARED command to the node 16399
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16394
+WARNING:  failed to send ABORT PREPARED command to the node 16394
+WARNING:  failed to send xid to the node 16395
+WARNING:  failed to send ABORT PREPARED command to the node 16395
+WARNING:  failed to send xid to the node 16399
+WARNING:  failed to send ABORT PREPARED command to the node 16399
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "DELETE FROM new_order
+WHERE no_o_id = $1
+  AND no_w_id = $2
+  AND no_d_id = $3"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16394
+WARNING:  failed to send ABORT PREPARED command to the node 16394
+WARNING:  failed to send xid to the node 16395
+WARNING:  failed to send ABORT PREPARED command to the node 16395
+WARNING:  failed to send xid to the node 16397
+WARNING:  failed to send ABORT PREPARED command to the node 16397
+WARNING:  failed to send xid to the node 16398
+WARNING:  failed to send ABORT PREPARED command to the node 16398
+WARNING:  failed to send xid to the node 16399
+WARNING:  failed to send ABORT PREPARED command to the node 16399
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "SELECT w_name, w_street_1, w_street_2, w_city, w_state, w_zip
+FROM warehouse
+WHERE w_id = $1"
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+CONTEXT:  SQL statement "UPDATE warehouse
+SET w_ytd = w_ytd + $1
+WHERE w_id = $2"
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16390
+WARNING:  failed to send ABORT PREPARED command to the node 16390
+WARNING:  failed to send xid to the node 16391
+WARNING:  failed to send ABORT PREPARED command to the node 16391
+WARNING:  failed to send xid to the node 16394
+WARNING:  failed to send ABORT PREPARED command to the node 16394
+WARNING:  failed to send xid to the node 16395
+WARNING:  failed to send ABORT PREPARED command to the node 16395
+WARNING:  failed to send xid to the node 16396
+WARNING:  failed to send ABORT PREPARED command to the node 16396
+WARNING:  failed to send xid to the node 16397
+WARNING:  failed to send ABORT PREPARED command to the node 16397
+WARNING:  failed to send xid to the node 16398
+WARNING:  failed to send ABORT PREPARED command to the node 16398
+WARNING:  failed to send xid to the node 16399
+WARNING:  failed to send ABORT PREPARED command to the node 16399
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16390
+WARNING:  failed to send ABORT PREPARED command to the node 16390
+WARNING:  failed to send xid to the node 16391
+WARNING:  failed to send ABORT PREPARED command to the node 16391
+WARNING:  failed to send xid to the node 16392
+WARNING:  failed to send ABORT PREPARED command to the node 16392
+WARNING:  failed to send xid to the node 16394
+WARNING:  failed to send ABORT PREPARED command to the node 16394
+WARNING:  failed to send xid to the node 16395
+WARNING:  failed to send ABORT PREPARED command to the node 16395
+WARNING:  failed to send xid to the node 16396
+WARNING:  failed to send ABORT PREPARED command to the node 16396
+WARNING:  failed to send xid to the node 16397
+WARNING:  failed to send ABORT PREPARED command to the node 16397
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  unexpected EOF on datanode connection
+WARNING:  failed to send xid to the node 16390
+WARNING:  failed to send ABORT PREPARED command to the node 16390
+WARNING:  failed to send xid to the node 16391
+WARNING:  failed to send ABORT PREPARED command to the node 16391
+WARNING:  failed to send xid to the node 16394
+WARNING:  failed to send ABORT PREPARED command to the node 16394
+WARNING:  failed to send xid to the node 16395
+WARNING:  failed to send ABORT PREPARED command to the node 16395
+WARNING:  failed to send xid to the node 16397
+WARNING:  failed to send ABORT PREPARED command to the node 16397
+WARNING:  failed to send xid to the node 16398
+WARNING:  failed to send ABORT PREPARED command to the node 16398
+WARNING:  failed to send xid to the node 16399
+WARNING:  failed to send ABORT PREPARED command to the node 16399

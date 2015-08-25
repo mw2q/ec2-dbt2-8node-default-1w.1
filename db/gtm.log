@@ -1,0 +1,782 @@
+1:140088065247040:2015-08-25 12:21:02.921 EDT -LOG:  Starting GTM server at (*:6666) -- control file /home/mark/stuff/dbt2/gtm/gtm.control
+LOCATION:  main, main.c:626
+1:140088065247040:2015-08-25 12:21:02.921 EDT -LOG:  Restoring last GXID to 198479
+	
+LOCATION:  GTM_RestoreTxnInfo, gtm_txn.c:2744
+1:140088065247040:2015-08-25 12:21:02.921 EDT -LOG:  Started to run as GTM-Active.
+LOCATION:  main, main.c:700
+1:140088031741696:2015-08-25 12:21:03.275 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:140088031741696:2015-08-25 12:21:03.275 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:140087664830208:2015-08-25 12:21:03.450 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:140087664830208:2015-08-25 12:21:03.450 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:140087639652096:2015-08-25 12:21:03.628 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:140087639652096:2015-08-25 12:21:03.628 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:140087136352000:2015-08-25 12:21:03.797 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:140087136352000:2015-08-25 12:21:03.797 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:140087111173888:2015-08-25 12:21:03.977 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:140087111173888:2015-08-25 12:21:03.977 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:140087085995776:2015-08-25 12:21:04.149 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:140087085995776:2015-08-25 12:21:04.149 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:140086582695680:2015-08-25 12:21:04.321 EDT -LOG:  Node with the given ID number already exists - one 0:1
+LOCATION:  pgxcnode_add_info, register_common.c:257
+1:140086582695680:2015-08-25 12:21:04.321 EDT -ERROR:  Failed to Register node
+LOCATION:  ProcessPGXCNodeRegister, register_gtm.c:170
+1:140086557517568:2015-08-25 12:21:23.592 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 200484
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:21:50.157 EDT -LOG:  Saving transaction info - next_gxid: 199481
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085651564288:2015-08-25 12:21:53.663 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:21:53.663 EDT -LOG:  Sending transaction id 199652
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:21:53.734 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:21:53.734 EDT -LOG:  Sending transaction id 199660
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:21:53.809 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:21:53.809 EDT -LOG:  Sending transaction id 199666
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:21:53.931 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:21:53.931 EDT -LOG:  Sending transaction id 199674
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:21:53.997 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:21:53.997 EDT -LOG:  Sending transaction id 199680
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:21:54.300 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:21:54.300 EDT -LOG:  Sending transaction id 199685
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086012253952:2015-08-25 12:22:18.648 EDT -LOG:  Saving transaction info - next_gxid: 200482
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:22:18.728 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 202488
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085643171584:2015-08-25 12:22:53.692 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085643171584:2015-08-25 12:22:53.692 EDT -LOG:  Sending transaction id 200904
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085643171584:2015-08-25 12:22:53.913 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085643171584:2015-08-25 12:22:53.913 EDT -LOG:  Sending transaction id 200907
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086012253952:2015-08-25 12:23:23.018 EDT -LOG:  Saving transaction info - next_gxid: 201483
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:23:24.077 EDT -LOG:  Saving transaction info - next_gxid: 202484
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:23:24.081 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 204492
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:23:25.188 EDT -LOG:  Saving transaction info - next_gxid: 203485
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:23:26.260 EDT -LOG:  Saving transaction info - next_gxid: 204487
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:23:26.265 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 206496
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:23:27.363 EDT -LOG:  Saving transaction info - next_gxid: 205487
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:23:28.480 EDT -LOG:  Saving transaction info - next_gxid: 206488
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:23:28.488 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 208500
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:23:29.549 EDT -LOG:  Saving transaction info - next_gxid: 207490
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:23:30.646 EDT -LOG:  Saving transaction info - next_gxid: 208490
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:23:30.656 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 210504
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:23:31.713 EDT -LOG:  Saving transaction info - next_gxid: 209492
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:23:32.807 EDT -LOG:  Saving transaction info - next_gxid: 210492
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:23:32.819 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 212508
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:23:33.912 EDT -LOG:  Saving transaction info - next_gxid: 211493
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:23:34.974 EDT -LOG:  Saving transaction info - next_gxid: 212495
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:23:34.987 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 214512
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:23:36.075 EDT -LOG:  Saving transaction info - next_gxid: 213495
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:23:37.147 EDT -LOG:  Saving transaction info - next_gxid: 214496
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:23:37.162 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 216516
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:23:38.216 EDT -LOG:  Saving transaction info - next_gxid: 215497
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:23:39.304 EDT -LOG:  Saving transaction info - next_gxid: 216498
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:23:39.323 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 218520
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086557517568:2015-08-25 12:23:40.365 EDT -LOG:  Saving transaction info - next_gxid: 217500
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:23:41.461 EDT -LOG:  Saving transaction info - next_gxid: 218500
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:23:41.482 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 220524
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:23:42.524 EDT -LOG:  Saving transaction info - next_gxid: 219501
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:23:43.592 EDT -LOG:  Saving transaction info - next_gxid: 220502
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:23:43.614 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 222528
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:23:44.679 EDT -LOG:  Saving transaction info - next_gxid: 221503
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:23:45.756 EDT -LOG:  Saving transaction info - next_gxid: 222504
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:23:45.781 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 224532
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:23:47.839 EDT -LOG:  Saving transaction info - next_gxid: 223505
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:23:48.907 EDT -LOG:  Saving transaction info - next_gxid: 224507
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:23:48.934 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 226536
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:23:49.970 EDT -LOG:  Saving transaction info - next_gxid: 225507
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:23:51.054 EDT -LOG:  Saving transaction info - next_gxid: 226508
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:23:51.081 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 228540
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:23:52.166 EDT -LOG:  Saving transaction info - next_gxid: 227509
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:23:53.223 EDT -LOG:  Saving transaction info - next_gxid: 228510
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:23:53.254 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 230544
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:23:55.284 EDT -LOG:  Saving transaction info - next_gxid: 229511
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:23:56.354 EDT -LOG:  Saving transaction info - next_gxid: 230512
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:23:56.388 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 232548
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:23:57.457 EDT -LOG:  Saving transaction info - next_gxid: 231513
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:23:58.566 EDT -LOG:  Saving transaction info - next_gxid: 232514
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:23:58.601 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 234552
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086012253952:2015-08-25 12:23:59.647 EDT -LOG:  Saving transaction info - next_gxid: 233515
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:24:00.755 EDT -LOG:  Saving transaction info - next_gxid: 234516
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:24:00.793 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 236556
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:24:01.911 EDT -LOG:  Saving transaction info - next_gxid: 235518
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:24:03.012 EDT -LOG:  Saving transaction info - next_gxid: 236518
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:24:03.054 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 238560
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:24:04.821 EDT -LOG:  Saving transaction info - next_gxid: 237519
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:24:06.856 EDT -LOG:  Saving transaction info - next_gxid: 238520
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:24:06.935 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 240564
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086062610176:2015-08-25 12:24:08.863 EDT -LOG:  Saving transaction info - next_gxid: 239521
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:24:11.097 EDT -LOG:  Saving transaction info - next_gxid: 240522
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:24:11.235 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 242568
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:24:13.186 EDT -LOG:  Saving transaction info - next_gxid: 241523
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:24:15.181 EDT -LOG:  Saving transaction info - next_gxid: 242524
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:24:15.267 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 244572
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:24:32.782 EDT -LOG:  Saving transaction info - next_gxid: 243525
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085626386176:2015-08-25 12:24:53.734 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085626386176:2015-08-25 12:24:53.734 EDT -LOG:  Sending transaction id 244374
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085626386176:2015-08-25 12:24:53.809 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085626386176:2015-08-25 12:24:53.809 EDT -LOG:  Sending transaction id 244385
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086062610176:2015-08-25 12:24:57.050 EDT -LOG:  Saving transaction info - next_gxid: 244526
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:24:57.866 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 246576
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:25:21.585 EDT -LOG:  Saving transaction info - next_gxid: 245527
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085634778880:2015-08-25 12:25:53.763 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085634778880:2015-08-25 12:25:53.763 EDT -LOG:  Sending transaction id 246192
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085634778880:2015-08-25 12:25:54.032 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085634778880:2015-08-25 12:25:54.032 EDT -LOG:  Sending transaction id 246195
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086037432064:2015-08-25 12:26:21.753 EDT -LOG:  Saving transaction info - next_gxid: 246528
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:26:21.884 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 248580
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:26:31.102 EDT -LOG:  Saving transaction info - next_gxid: 247529
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:26:32.288 EDT -LOG:  Saving transaction info - next_gxid: 248530
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:26:32.344 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 250584
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:26:33.554 EDT -LOG:  Saving transaction info - next_gxid: 249531
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:26:34.975 EDT -LOG:  Saving transaction info - next_gxid: 250532
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:26:35.034 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 252588
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:26:36.115 EDT -LOG:  Saving transaction info - next_gxid: 251534
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:26:37.762 EDT -LOG:  Saving transaction info - next_gxid: 252534
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:26:37.820 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 254592
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086012253952:2015-08-25 12:26:39.148 EDT -LOG:  Saving transaction info - next_gxid: 253535
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:26:40.845 EDT -LOG:  Saving transaction info - next_gxid: 254536
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:26:40.909 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 256596
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:26:42.061 EDT -LOG:  Saving transaction info - next_gxid: 255537
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:26:44.258 EDT -LOG:  Saving transaction info - next_gxid: 256538
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:26:44.325 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 258600
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:26:45.495 EDT -LOG:  Saving transaction info - next_gxid: 257540
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:26:46.661 EDT -LOG:  Saving transaction info - next_gxid: 258541
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:26:46.725 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 260604
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:26:47.806 EDT -LOG:  Saving transaction info - next_gxid: 259542
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:26:49.037 EDT -LOG:  Saving transaction info - next_gxid: 260542
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:26:49.105 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 262608
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:26:51.180 EDT -LOG:  Saving transaction info - next_gxid: 261543
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:26:52.374 EDT -LOG:  Saving transaction info - next_gxid: 262544
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:26:52.445 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 264612
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:26:53.537 EDT -LOG:  Saving transaction info - next_gxid: 263545
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:26:55.749 EDT -LOG:  Saving transaction info - next_gxid: 264546
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:26:55.822 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 266616
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086557517568:2015-08-25 12:26:57.087 EDT -LOG:  Saving transaction info - next_gxid: 265547
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:26:58.300 EDT -LOG:  Saving transaction info - next_gxid: 266548
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:26:58.376 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 268620
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:26:59.477 EDT -LOG:  Saving transaction info - next_gxid: 267550
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:27:00.686 EDT -LOG:  Saving transaction info - next_gxid: 268550
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:27:00.766 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 270624
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:27:01.894 EDT -LOG:  Saving transaction info - next_gxid: 269551
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:27:04.177 EDT -LOG:  Saving transaction info - next_gxid: 270552
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:27:04.262 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 272628
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:27:05.428 EDT -LOG:  Saving transaction info - next_gxid: 271553
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:27:06.654 EDT -LOG:  Saving transaction info - next_gxid: 272554
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:27:06.735 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 274632
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:27:07.783 EDT -LOG:  Saving transaction info - next_gxid: 273555
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:27:09.042 EDT -LOG:  Saving transaction info - next_gxid: 274557
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:27:09.129 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 276636
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:27:11.564 EDT -LOG:  Saving transaction info - next_gxid: 275557
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:27:12.787 EDT -LOG:  Saving transaction info - next_gxid: 276558
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:27:12.876 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 278640
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:27:13.995 EDT -LOG:  Saving transaction info - next_gxid: 277560
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:27:16.084 EDT -LOG:  Saving transaction info - next_gxid: 278560
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:27:16.243 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 280644
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:27:17.657 EDT -LOG:  Saving transaction info - next_gxid: 279561
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:27:19.309 EDT -LOG:  Saving transaction info - next_gxid: 280564
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:27:19.467 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 282648
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:27:21.301 EDT -LOG:  Saving transaction info - next_gxid: 281564
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:27:23.291 EDT -LOG:  Saving transaction info - next_gxid: 282564
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:27:23.459 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 284652
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:27:25.275 EDT -LOG:  Saving transaction info - next_gxid: 283565
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:27:27.253 EDT -LOG:  Saving transaction info - next_gxid: 284566
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:27:27.423 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 286656
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086012253952:2015-08-25 12:27:29.242 EDT -LOG:  Saving transaction info - next_gxid: 285567
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:27:31.217 EDT -LOG:  Saving transaction info - next_gxid: 286568
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:27:31.389 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 288660
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085651564288:2015-08-25 12:27:53.789 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:27:53.789 EDT -LOG:  Sending transaction id 287368
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:27:53.886 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:27:53.886 EDT -LOG:  Sending transaction id 287374
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086557517568:2015-08-25 12:27:58.865 EDT -LOG:  Saving transaction info - next_gxid: 287569
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085617993472:2015-08-25 12:28:26.681 EDT -LOG:  Saving transaction info - next_gxid: 288570
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:28:29.191 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 290664
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085651564288:2015-08-25 12:28:53.818 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:28:53.819 EDT -LOG:  Sending transaction id 289329
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:28:53.832 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085651564288:2015-08-25 12:28:53.832 EDT -LOG:  Sending transaction id 289330
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085651564288:2015-08-25 12:28:53.887 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140085659956992:2015-08-25 12:29:02.918 EDT -LOG:  Saving transaction info - next_gxid: 289571
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085634778880:2015-08-25 12:29:53.848 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085634778880:2015-08-25 12:29:53.848 EDT -LOG:  Sending transaction id 289968
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085634778880:2015-08-25 12:29:54.062 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085634778880:2015-08-25 12:29:54.062 EDT -LOG:  Sending transaction id 289971
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085659956992:2015-08-25 12:29:57.010 EDT -LOG:  Saving transaction info - next_gxid: 290572
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:29:57.215 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 292668
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:30:04.266 EDT -LOG:  Saving transaction info - next_gxid: 291573
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:30:05.393 EDT -LOG:  Saving transaction info - next_gxid: 292575
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:30:05.496 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 294672
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:30:06.516 EDT -LOG:  Saving transaction info - next_gxid: 293575
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:30:07.653 EDT -LOG:  Saving transaction info - next_gxid: 294576
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:30:07.753 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 296676
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:30:08.761 EDT -LOG:  Saving transaction info - next_gxid: 295578
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:30:10.942 EDT -LOG:  Saving transaction info - next_gxid: 296578
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:30:11.075 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 298680
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:30:12.132 EDT -LOG:  Saving transaction info - next_gxid: 297579
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:30:13.245 EDT -LOG:  Saving transaction info - next_gxid: 298580
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:30:13.351 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 300684
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086062610176:2015-08-25 12:30:14.356 EDT -LOG:  Saving transaction info - next_gxid: 299581
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:15.551 EDT -LOG:  Saving transaction info - next_gxid: 300582
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:30:15.673 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 302688
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:30:16.705 EDT -LOG:  Saving transaction info - next_gxid: 301583
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:30:17.837 EDT -LOG:  Saving transaction info - next_gxid: 302584
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:30:17.946 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 304692
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:30:18.954 EDT -LOG:  Saving transaction info - next_gxid: 303586
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:30:20.065 EDT -LOG:  Saving transaction info - next_gxid: 304586
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:20.184 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 306696
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086012253952:2015-08-25 12:30:21.696 EDT -LOG:  Saving transaction info - next_gxid: 305587
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:30:22.856 EDT -LOG:  Saving transaction info - next_gxid: 306588
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:30:22.995 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 308700
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:30:23.998 EDT -LOG:  Saving transaction info - next_gxid: 307589
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:30:25.131 EDT -LOG:  Saving transaction info - next_gxid: 308590
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:30:25.254 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 310704
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:30:26.326 EDT -LOG:  Saving transaction info - next_gxid: 309591
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:30:27.480 EDT -LOG:  Saving transaction info - next_gxid: 310592
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:30:27.625 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 312708
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086062610176:2015-08-25 12:30:28.679 EDT -LOG:  Saving transaction info - next_gxid: 311593
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:30:29.788 EDT -LOG:  Saving transaction info - next_gxid: 312594
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:29.932 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 314712
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:30:30.950 EDT -LOG:  Saving transaction info - next_gxid: 313595
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:30:32.120 EDT -LOG:  Saving transaction info - next_gxid: 314596
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:30:32.251 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 316716
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:30:33.273 EDT -LOG:  Saving transaction info - next_gxid: 315598
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:30:34.461 EDT -LOG:  Saving transaction info - next_gxid: 316598
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:34.591 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 318720
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:30:35.556 EDT -LOG:  Saving transaction info - next_gxid: 317599
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:30:36.670 EDT -LOG:  Saving transaction info - next_gxid: 318600
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:36.804 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 320724
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:30:37.866 EDT -LOG:  Saving transaction info - next_gxid: 319601
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:39.005 EDT -LOG:  Saving transaction info - next_gxid: 320602
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:30:39.149 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 322728
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:30:40.137 EDT -LOG:  Saving transaction info - next_gxid: 321603
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:30:41.762 EDT -LOG:  Saving transaction info - next_gxid: 322604
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:30:42.005 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 324732
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:30:43.748 EDT -LOG:  Saving transaction info - next_gxid: 323605
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:45.726 EDT -LOG:  Saving transaction info - next_gxid: 324606
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:30:45.974 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 326736
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086045824768:2015-08-25 12:30:47.713 EDT -LOG:  Saving transaction info - next_gxid: 325607
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:30:49.696 EDT -LOG:  Saving transaction info - next_gxid: 326608
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:30:49.951 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 328740
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:30:51.686 EDT -LOG:  Saving transaction info - next_gxid: 327609
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:30:53.660 EDT -LOG:  Saving transaction info - next_gxid: 328610
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085617993472:2015-08-25 12:30:53.876 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085617993472:2015-08-25 12:30:53.876 EDT -LOG:  Sending transaction id 328721
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085617993472:2015-08-25 12:30:53.889 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085617993472:2015-08-25 12:30:53.889 EDT -LOG:  Sending transaction id 328730
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086557517568:2015-08-25 12:30:53.907 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 330744
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:30:55.293 EDT -LOG:  Saving transaction info - next_gxid: 329611
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:30:56.437 EDT -LOG:  Saving transaction info - next_gxid: 330612
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:30:56.698 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 332748
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:30:58.407 EDT -LOG:  Saving transaction info - next_gxid: 331613
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:31:00.376 EDT -LOG:  Saving transaction info - next_gxid: 332614
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:31:00.638 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 334752
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086012253952:2015-08-25 12:31:02.333 EDT -LOG:  Saving transaction info - next_gxid: 333615
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:31:04.291 EDT -LOG:  Saving transaction info - next_gxid: 334616
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:31:04.554 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 336756
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:31:06.273 EDT -LOG:  Saving transaction info - next_gxid: 335617
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:31:08.245 EDT -LOG:  Saving transaction info - next_gxid: 336618
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:31:08.508 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 338760
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:31:17.891 EDT -LOG:  Saving transaction info - next_gxid: 337619
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085626386176:2015-08-25 12:31:53.905 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085626386176:2015-08-25 12:31:53.905 EDT -LOG:  Sending transaction id 338571
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085626386176:2015-08-25 12:31:54.014 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085626386176:2015-08-25 12:31:54.014 EDT -LOG:  Sending transaction id 338574
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140087119566592:2015-08-25 12:32:26.969 EDT -LOG:  Saving transaction info - next_gxid: 338620
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:32:45.751 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 340764
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086054217472:2015-08-25 12:32:46.683 EDT -LOG:  Saving transaction info - next_gxid: 339621
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:32:47.769 EDT -LOG:  Saving transaction info - next_gxid: 340622
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:32:47.920 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 342768
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:32:48.852 EDT -LOG:  Saving transaction info - next_gxid: 341623
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:32:49.929 EDT -LOG:  Saving transaction info - next_gxid: 342624
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:32:50.104 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 344772
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:32:51.040 EDT -LOG:  Saving transaction info - next_gxid: 343625
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:32:52.112 EDT -LOG:  Saving transaction info - next_gxid: 344627
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:32:52.267 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 346776
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086062610176:2015-08-25 12:32:53.207 EDT -LOG:  Saving transaction info - next_gxid: 345627
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085643171584:2015-08-25 12:32:54.002 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140086029039360:2015-08-25 12:32:54.437 EDT -LOG:  Saving transaction info - next_gxid: 346628
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:32:54.604 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 348780
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:32:55.523 EDT -LOG:  Saving transaction info - next_gxid: 347629
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:32:56.605 EDT -LOG:  Saving transaction info - next_gxid: 348630
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:32:56.762 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 350784
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:32:57.681 EDT -LOG:  Saving transaction info - next_gxid: 349631
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:32:58.766 EDT -LOG:  Saving transaction info - next_gxid: 350632
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:32:58.928 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 352788
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:32:59.872 EDT -LOG:  Saving transaction info - next_gxid: 351633
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:33:01.008 EDT -LOG:  Saving transaction info - next_gxid: 352634
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:33:01.185 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 354792
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086557517568:2015-08-25 12:33:02.142 EDT -LOG:  Saving transaction info - next_gxid: 353635
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:33:03.224 EDT -LOG:  Saving transaction info - next_gxid: 354637
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:33:03.391 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 356796
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:33:04.331 EDT -LOG:  Saving transaction info - next_gxid: 355637
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:33:05.453 EDT -LOG:  Saving transaction info - next_gxid: 356638
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:33:05.639 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 358800
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:33:06.578 EDT -LOG:  Saving transaction info - next_gxid: 357639
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:33:07.745 EDT -LOG:  Saving transaction info - next_gxid: 358640
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:33:07.914 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 360804
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:33:08.858 EDT -LOG:  Saving transaction info - next_gxid: 359641
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:33:09.970 EDT -LOG:  Saving transaction info - next_gxid: 360642
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:33:10.165 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 362808
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:33:11.104 EDT -LOG:  Saving transaction info - next_gxid: 361643
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:33:12.192 EDT -LOG:  Saving transaction info - next_gxid: 362644
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:33:12.366 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 364812
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:33:13.254 EDT -LOG:  Saving transaction info - next_gxid: 363645
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:33:14.332 EDT -LOG:  Saving transaction info - next_gxid: 364646
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:33:14.509 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 366816
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086037432064:2015-08-25 12:33:15.830 EDT -LOG:  Saving transaction info - next_gxid: 365647
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:33:16.965 EDT -LOG:  Saving transaction info - next_gxid: 366649
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:33:17.158 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 368820
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:33:18.084 EDT -LOG:  Saving transaction info - next_gxid: 367651
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:33:19.186 EDT -LOG:  Saving transaction info - next_gxid: 368651
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:33:19.368 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 370824
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:33:20.278 EDT -LOG:  Saving transaction info - next_gxid: 369651
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:33:21.361 EDT -LOG:  Saving transaction info - next_gxid: 370652
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:33:21.543 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 372828
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086557517568:2015-08-25 12:33:22.471 EDT -LOG:  Saving transaction info - next_gxid: 371653
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086549124864:2015-08-25 12:33:24.563 EDT -LOG:  Saving transaction info - next_gxid: 372654
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:33:24.759 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 374832
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:33:26.139 EDT -LOG:  Saving transaction info - next_gxid: 373655
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086037432064:2015-08-25 12:33:28.154 EDT -LOG:  Saving transaction info - next_gxid: 374656
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:33:28.506 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 376836
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086557517568:2015-08-25 12:33:30.148 EDT -LOG:  Saving transaction info - next_gxid: 375657
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:33:32.156 EDT -LOG:  Saving transaction info - next_gxid: 376658
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:33:32.514 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 378840
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:33:34.148 EDT -LOG:  Saving transaction info - next_gxid: 377659
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:33:36.155 EDT -LOG:  Saving transaction info - next_gxid: 378660
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086557517568:2015-08-25 12:33:36.514 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 380844
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086012253952:2015-08-25 12:33:38.161 EDT -LOG:  Saving transaction info - next_gxid: 379661
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:33:40.156 EDT -LOG:  Saving transaction info - next_gxid: 380662
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086029039360:2015-08-25 12:33:40.370 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 382848
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085659956992:2015-08-25 12:33:41.204 EDT -LOG:  Saving transaction info - next_gxid: 381663
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086062610176:2015-08-25 12:33:42.576 EDT -LOG:  Saving transaction info - next_gxid: 382664
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:33:42.942 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 384852
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086012253952:2015-08-25 12:33:44.586 EDT -LOG:  Saving transaction info - next_gxid: 383665
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086054217472:2015-08-25 12:33:46.589 EDT -LOG:  Saving transaction info - next_gxid: 384666
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:33:46.959 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 386856
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086020646656:2015-08-25 12:33:48.569 EDT -LOG:  Saving transaction info - next_gxid: 385667
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086012253952:2015-08-25 12:33:50.555 EDT -LOG:  Saving transaction info - next_gxid: 386668
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085659956992:2015-08-25 12:33:50.927 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 388860
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086029039360:2015-08-25 12:33:52.546 EDT -LOG:  Saving transaction info - next_gxid: 387669
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085617993472:2015-08-25 12:33:53.984 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140086054217472:2015-08-25 12:33:54.591 EDT -LOG:  Saving transaction info - next_gxid: 388670
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086020646656:2015-08-25 12:33:54.968 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 390864
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140086549124864:2015-08-25 12:34:18.381 EDT -LOG:  Saving transaction info - next_gxid: 389671
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:34:38.989 EDT -LOG:  Saving transaction info - next_gxid: 390672
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140086045824768:2015-08-25 12:34:51.855 EDT -LOG:  Saving transaction restoration info, backed-up gxid: 392868
+LOCATION:  GTM_WriteRestorePointXid, gtm_txn.c:2777
+1:140085626386176:2015-08-25 12:34:53.979 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085626386176:2015-08-25 12:34:53.979 EDT -LOG:  Sending transaction id 390969
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085626386176:2015-08-25 12:34:54.184 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085626386176:2015-08-25 12:34:54.184 EDT -LOG:  Sending transaction id 390979
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086062610176:2015-08-25 12:35:29.340 EDT -LOG:  Saving transaction info - next_gxid: 391673
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140085617993472:2015-08-25 12:35:54.009 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085617993472:2015-08-25 12:35:54.009 EDT -LOG:  Sending transaction id 392368
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085617993472:2015-08-25 12:35:54.121 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085617993472:2015-08-25 12:35:54.121 EDT -LOG:  Sending transaction id 392376
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140085617993472:2015-08-25 12:35:54.207 EDT -LOG:  Inside ProcessBeginTransactionGetGXIDAutovacuumCommand
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1525
+1:140085617993472:2015-08-25 12:35:54.207 EDT -LOG:  Sending transaction id 392381
+LOCATION:  ProcessBeginTransactionGetGXIDAutovacuumCommand, gtm_txn.c:1552
+1:140086029039360:2015-08-25 12:36:09.283 EDT -LOG:  Saving transaction info - next_gxid: 392674
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+1:140088048527104:2015-08-25 12:38:10.668 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140088040134400:2015-08-25 12:38:10.668 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140088031741696:2015-08-25 12:38:11.842 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:140088023348992:2015-08-25 12:38:11.843 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087673222912:2015-08-25 12:38:11.843 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087664830208:2015-08-25 12:38:13.018 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:140087648044800:2015-08-25 12:38:13.019 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087656437504:2015-08-25 12:38:13.019 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087639652096:2015-08-25 12:38:14.195 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:140087631259392:2015-08-25 12:38:14.196 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087622866688:2015-08-25 12:38:14.196 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087136352000:2015-08-25 12:38:15.363 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:140087127959296:2015-08-25 12:38:15.364 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087119566592:2015-08-25 12:38:15.364 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087111173888:2015-08-25 12:38:16.540 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:140087094388480:2015-08-25 12:38:16.541 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087102781184:2015-08-25 12:38:16.541 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140087085995776:2015-08-25 12:38:17.724 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:140086591088384:2015-08-25 12:38:17.725 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140086599481088:2015-08-25 12:38:17.725 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140086582695680:2015-08-25 12:38:18.896 EDT -ERROR:  Failed to Unregister node
+LOCATION:  ProcessPGXCNodeUnregister, register_gtm.c:288
+1:140086574302976:2015-08-25 12:38:18.897 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140086565910272:2015-08-25 12:38:18.897 EDT -LOG:  unexpected EOF on client connection
+LOCATION:  ReadCommand, main.c:1481
+1:140088065247040:2015-08-25 12:38:19.898 EDT -LOG:  GTM shutting down.
+LOCATION:  ServerLoop, main.c:884
+1:140088065247040:2015-08-25 12:38:19.898 EDT -LOG:  Saving transaction info - next_gxid: 392723
+LOCATION:  GTM_SaveTxnInfo, gtm_txn.c:2760
+Received signal 2

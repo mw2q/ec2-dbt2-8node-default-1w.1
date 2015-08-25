@@ -1,0 +1,57 @@
+connecting to client at 'localhost'
+connecting to client port at '30000'
+
+database table cardinalities:
+warehouses = 1
+districts = 10
+customers = 3000
+items = 100000
+orders = 3000
+stock = 100000
+new-orders = 900
+
+transaction mix:
+new-order mix 0.45
+payment mix 0.43
+order-status mix 0.04
+delivery mix 0.04
+stock-level mix 0.04
+
+transaction thresholds:
+new-order threshold 0.45
+payment threshold 0.88
+order-status threshold 0.92
+delivery threshold 0.96
+stock-level threshold 1.00
+
+delivery keying time 0 s
+new_order keying time 0 s
+order-status keying time 0 s
+payment keying time 0 s
+stock-level keying time 0 s
+
+delivery thinking time 0 ms
+new_order thinking time 0 ms
+order-status thinking time 0 ms
+payment thinking time 0 ms
+stock-level thinking time 0 ms
+
+w_id range 1 to 1
+
+10 terminals per warehouse
+
+900 second steady state duration
+
+driver is starting to ramp up at time 1440519686
+driver will ramp up in  0 seconds
+will stop test at time 1440520586
+seed for 17509:de0bd700 : 2345788730
+seed for 17509:de09c700 : 2345923984
+seed for 17509:de07b700 : 2346550506
+seed for 17509:de05a700 : 2346686280
+seed for 17509:de039700 : 2346297298
+seed for 17509:de018700 : 2346432003
+seed for 17509:ddff7700 : 2284142957
+seed for 17509:ddfd6700 : 2284278219
+seed for 17509:ddfb5700 : 2283888696
+seed for 17509:ddf94700 : 2284024677

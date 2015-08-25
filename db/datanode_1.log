@@ -1,0 +1,1202 @@
+2015-08-25 12:21:21 EDT [26529]: [1-1] user=,db=,app=,client= LOG:  database system was shut down at 2015-08-25 12:20:50 EDT
+2015-08-25 12:21:21 EDT [26529]: [2-1] user=,db=,app=,client= LOG:  MultiXact member wraparound protections are now enabled
+2015-08-25 12:21:21 EDT [26528]: [1-1] user=,db=,app=,client= LOG:  database system is ready to accept connections
+2015-08-25 12:21:21 EDT [26534]: [1-1] user=,db=,app=,client= LOG:  autovacuum launcher started
+2015-08-25 12:21:28 EDT [26591]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 40 tuples, 4 tuples to self, 36 to other nodes
+2015-08-25 12:21:28 EDT [26591]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4448_c2 is done
+2015-08-25 12:21:28 EDT [26591]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4448_c2 producer store did 4 writes and 4 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:21:28 EDT [26614]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 40 tuples, 2 tuples to self, 38 to other nodes
+2015-08-25 12:21:28 EDT [26614]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4445_b3 is done
+2015-08-25 12:21:28 EDT [26614]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4445_b3 producer store did 2 writes and 2 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:21:28 EDT [26599]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:28 EDT [26599]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4448_cd is done
+2015-08-25 12:21:28 EDT [26599]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4448_cd producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:29 EDT [26614]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:29 EDT [26614]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_450f_5d is done
+2015-08-25 12:21:29 EDT [26614]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_450f_5d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:30 EDT [26617]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:30 EDT [26617]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4514_73 is done
+2015-08-25 12:21:30 EDT [26617]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4514_73 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:31 EDT [26591]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:31 EDT [26591]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4519_1c is done
+2015-08-25 12:21:31 EDT [26591]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4519_1c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:31 EDT [26633]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 40 tuples, 1 tuples to self, 39 to other nodes
+2015-08-25 12:21:31 EDT [26633]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4445_279 is done
+2015-08-25 12:21:31 EDT [26633]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4445_279 producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:21:33 EDT [26635]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:33 EDT [26635]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4445_331 is done
+2015-08-25 12:21:33 EDT [26635]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4445_331 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:39 EDT [26633]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:39 EDT [26633]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_450f_7a1 is done
+2015-08-25 12:21:39 EDT [26633]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_450f_7a1 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:39 EDT [26635]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:39 EDT [26635]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_450f_7ff is done
+2015-08-25 12:21:39 EDT [26635]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_450f_7ff producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:40 EDT [26643]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:40 EDT [26643]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_44eb_927 is done
+2015-08-25 12:21:40 EDT [26643]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_44eb_927 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:40 EDT [26630]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:40 EDT [26630]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_450f_9a3 is done
+2015-08-25 12:21:40 EDT [26630]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_450f_9a3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:40 EDT [26630]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:40 EDT [26630]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_44eb_a26 is done
+2015-08-25 12:21:40 EDT [26630]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_44eb_a26 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:43 EDT [26645]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:43 EDT [26645]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_44eb_c21 is done
+2015-08-25 12:21:43 EDT [26645]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_44eb_c21 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:44 EDT [26631]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:44 EDT [26631]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer p_1_450f_d9f is done
+2015-08-25 12:21:44 EDT [26631]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Tuplestore p_1_450f_d9f producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:45 EDT [26630]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:45 EDT [26630]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_44eb_dd6 is done
+2015-08-25 12:21:45 EDT [26630]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_44eb_dd6 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:48 EDT [26644]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:48 EDT [26644]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4523_1c8 is done
+2015-08-25 12:21:48 EDT [26644]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4523_1c8 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:49 EDT [26649]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:49 EDT [26649]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_451e_39f is done
+2015-08-25 12:21:49 EDT [26649]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_451e_39f producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:49 EDT [26653]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:49 EDT [26653]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_450f_fe4 is done
+2015-08-25 12:21:49 EDT [26653]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_450f_fe4 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:49 EDT [26635]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:49 EDT [26635]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_3c1 is done
+2015-08-25 12:21:49 EDT [26635]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_3c1 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:51 EDT [26648]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:51 EDT [26648]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4519_4cf is done
+2015-08-25 12:21:51 EDT [26648]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4519_4cf producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:52 EDT [26630]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:52 EDT [26630]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_532 is done
+2015-08-25 12:21:52 EDT [26630]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_532 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:52 EDT [26643]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 40 tuples, 2 tuples to self, 38 to other nodes
+2015-08-25 12:21:52 EDT [26643]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_60a is done
+2015-08-25 12:21:52 EDT [26643]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_60a producer store did 2 writes and 2 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:21:53 EDT [26630]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 40 tuples, 3 tuples to self, 37 to other nodes
+2015-08-25 12:21:53 EDT [26630]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4514_65b is done
+2015-08-25 12:21:53 EDT [26630]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4514_65b producer store did 3 writes and 3 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:21:53 EDT [26653]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:53 EDT [26653]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4445_773 is done
+2015-08-25 12:21:53 EDT [26653]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4445_773 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:56 EDT [26653]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:56 EDT [26653]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_450f_13bf is done
+2015-08-25 12:21:56 EDT [26653]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_450f_13bf producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:57 EDT [26653]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:57 EDT [26653]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_451e_77f is done
+2015-08-25 12:21:57 EDT [26653]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_451e_77f producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:21:57 EDT [26643]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:21:57 EDT [26643]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_450f_1448 is done
+2015-08-25 12:21:57 EDT [26643]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_450f_1448 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:09 EDT [26648]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:09 EDT [26648]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_450f_1519 is done
+2015-08-25 12:22:09 EDT [26648]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_450f_1519 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:09 EDT [26603]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:09 EDT [26603]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_451e_1369 is done
+2015-08-25 12:22:09 EDT [26603]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_451e_1369 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:11 EDT [26653]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:11 EDT [26653]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_451e_14b5 is done
+2015-08-25 12:22:11 EDT [26653]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_451e_14b5 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:11 EDT [26653]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:11 EDT [26653]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4528_285 is done
+2015-08-25 12:22:11 EDT [26653]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4528_285 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:13 EDT [26649]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:13 EDT [26649]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_44eb_112d is done
+2015-08-25 12:22:13 EDT [26649]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_44eb_112d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:13 EDT [26648]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:13 EDT [26648]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_44eb_113c is done
+2015-08-25 12:22:13 EDT [26648]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_44eb_113c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:14 EDT [26647]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:14 EDT [26647]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_451e_1538 is done
+2015-08-25 12:22:14 EDT [26647]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_451e_1538 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:14 EDT [26637]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:14 EDT [26637]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4519_baa is done
+2015-08-25 12:22:14 EDT [26637]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4519_baa producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:16 EDT [26637]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:16 EDT [26637]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4528_3bb is done
+2015-08-25 12:22:16 EDT [26637]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4528_3bb producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:18 EDT [26633]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:18 EDT [26633]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_450f_17c0 is done
+2015-08-25 12:22:18 EDT [26633]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_450f_17c0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:20 EDT [26647]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:20 EDT [26647]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_4f6 is done
+2015-08-25 12:22:20 EDT [26647]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_4f6 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:20 EDT [26645]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:20 EDT [26645]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_502 is done
+2015-08-25 12:22:20 EDT [26645]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_502 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:21 EDT [26644]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:22:21 EDT [26644]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4528_574 is done
+2015-08-25 12:22:21 EDT [26644]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4528_574 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:24 EDT [26643]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_153f is done
+2015-08-25 12:22:24 EDT [26643]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:22:24 EDT [26643]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 FATAL:  Timeout while waiting for Consumers finishing
+2015-08-25 12:22:24 EDT [26643]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:22:24 EDT [26643]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 WARNING:  AbortTransaction while in ABORT state
+2015-08-25 12:22:24 EDT [26643]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_153f producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:22:27 EDT [26630]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 12 tuples, 1 tuples to self, 11 to other nodes
+2015-08-25 12:22:27 EDT [26630]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4514_ee2 is done
+2015-08-25 12:22:27 EDT [26630]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4514_ee2 producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:23:11 EDT [26566]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 WARNING:  there is no transaction in progress
+2015-08-25 12:24:17 EDT [26530]: [1-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:24:17 EDT [26530]: [2-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:24:18 EDT [26637]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:18 EDT [26637]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4440_14db is done
+2015-08-25 12:24:18 EDT [26637]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4440_14db producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:19 EDT [26635]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:19 EDT [26635]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_16c4 is done
+2015-08-25 12:24:19 EDT [26635]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_16c4 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:23 EDT [26653]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:23 EDT [26653]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4440_1bf5 is done
+2015-08-25 12:24:23 EDT [26653]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4440_1bf5 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:24 EDT [26630]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:24 EDT [26630]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_1d16 is done
+2015-08-25 12:24:24 EDT [26630]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_1d16 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:26 EDT [26644]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:26 EDT [26644]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4523_1b40 is done
+2015-08-25 12:24:26 EDT [26644]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4523_1b40 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:26 EDT [26530]: [3-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:26 EDT [26530]: [4-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:26 EDT [26530]: [5-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:26 EDT [26646]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:26 EDT [26646]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:26 EDT [26646]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:26 EDT [26646]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:27 EDT [26630]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:27 EDT [26630]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_450f_2e60 is done
+2015-08-25 12:24:27 EDT [26630]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_450f_2e60 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:27 EDT [26653]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:27 EDT [26653]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4519_2624 is done
+2015-08-25 12:24:27 EDT [26653]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4519_2624 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:29 EDT [26639]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:29 EDT [26639]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4523_1c5d is done
+2015-08-25 12:24:29 EDT [26639]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4523_1c5d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:29 EDT [26630]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:29 EDT [26630]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4514_23f7 is done
+2015-08-25 12:24:29 EDT [26630]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4514_23f7 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:31 EDT [26645]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:31 EDT [26645]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4440_2174 is done
+2015-08-25 12:24:31 EDT [26645]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4440_2174 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:32 EDT [26630]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:32 EDT [26630]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_2839 is done
+2015-08-25 12:24:32 EDT [26630]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_2839 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:33 EDT [26645]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:33 EDT [26645]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_1dc8 is done
+2015-08-25 12:24:33 EDT [26645]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_1dc8 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:33 EDT [26635]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:33 EDT [26635]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4445_1bfe is done
+2015-08-25 12:24:33 EDT [26635]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4445_1bfe producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:33 EDT [26644]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:33 EDT [26644]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4528_1dd4 is done
+2015-08-25 12:24:33 EDT [26644]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4528_1dd4 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:34 EDT [26636]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:34 EDT [26636]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4440_22dd is done
+2015-08-25 12:24:34 EDT [26636]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4440_22dd producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:35 EDT [26632]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:35 EDT [26632]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4528_1eae is done
+2015-08-25 12:24:35 EDT [26632]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4528_1eae producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:36 EDT [26633]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:36 EDT [26633]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4440_2346 is done
+2015-08-25 12:24:36 EDT [26633]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4440_2346 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:36 EDT [26631]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:36 EDT [26631]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer p_1_4440_234a is done
+2015-08-25 12:24:36 EDT [26631]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Tuplestore p_1_4440_234a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:36 EDT [26570]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  Connection error Timeout while waiting for Consumers finishing
+2015-08-25 12:24:36 EDT [26570]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:24:36 EDT [26570]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  Connection error Datanode closed the connection unexpectedly
+		This probably means the Datanode terminated abnormally
+		before or while processing the request.
+	
+2015-08-25 12:24:36 EDT [26570]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:24:36 EDT [26570]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  Connection error unexpected EOF on datanode connection
+2015-08-25 12:24:36 EDT [26570]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:24:36 EDT [26570]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 WARNING:  unexpected EOF on datanode connection
+2015-08-25 12:24:36 EDT [26570]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Timeout while waiting for Consumers finishing
+2015-08-25 12:24:36 EDT [26570]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:24:37 EDT [26530]: [6-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:24:37 EDT [26530]: [7-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:37 EDT [26530]: [8-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:37 EDT [26530]: [9-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:37 EDT [26665]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:37 EDT [26665]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:37 EDT [26665]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:37 EDT [26665]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:37 EDT [26637]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:37 EDT [26637]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4523_1fc3 is done
+2015-08-25 12:24:37 EDT [26637]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4523_1fc3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:38 EDT [26635]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:38 EDT [26635]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_2b93 is done
+2015-08-25 12:24:38 EDT [26635]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_2b93 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:39 EDT [26689]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:39 EDT [26689]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_291a is done
+2015-08-25 12:24:39 EDT [26689]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_291a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:41 EDT [26530]: [10-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:41 EDT [26530]: [11-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:41 EDT [26530]: [12-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:41 EDT [26646]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:41 EDT [26646]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:41 EDT [26646]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:41 EDT [26646]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:41 EDT [26530]: [13-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:41 EDT [26530]: [14-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:41 EDT [26530]: [15-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:41 EDT [26685]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:41 EDT [26685]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:41 EDT [26685]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:41 EDT [26685]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:46 EDT [26633]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:46 EDT [26633]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4514_2a1a is done
+2015-08-25 12:24:46 EDT [26633]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4514_2a1a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:46 EDT [26530]: [16-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:46 EDT [26530]: [17-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:46 EDT [26530]: [18-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:46 EDT [26570]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:46 EDT [26570]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:46 EDT [26570]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:46 EDT [26570]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:46 EDT [26530]: [19-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:46 EDT [26530]: [20-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:46 EDT [26530]: [21-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:46 EDT [26624]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:46 EDT [26624]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:46 EDT [26624]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:46 EDT [26624]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:50 EDT [26630]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:50 EDT [26630]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_2975 is done
+2015-08-25 12:24:50 EDT [26630]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_2975 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:51 EDT [26530]: [22-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:51 EDT [26530]: [23-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:51 EDT [26530]: [24-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:51 EDT [26665]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:51 EDT [26665]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:51 EDT [26665]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:51 EDT [26665]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:51 EDT [26530]: [25-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:51 EDT [26530]: [26-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:51 EDT [26530]: [27-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:51 EDT [26677]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:51 EDT [26677]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:51 EDT [26677]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:51 EDT [26677]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:51 EDT [26630]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:51 EDT [26630]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4523_2475 is done
+2015-08-25 12:24:51 EDT [26630]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4523_2475 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:52 EDT [26633]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:52 EDT [26633]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4440_2ab3 is done
+2015-08-25 12:24:52 EDT [26633]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4440_2ab3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:53 EDT [26647]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:53 EDT [26647]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4523_24e1 is done
+2015-08-25 12:24:53 EDT [26647]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4523_24e1 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:54 EDT [26639]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:54 EDT [26639]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_450f_3572 is done
+2015-08-25 12:24:54 EDT [26639]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_450f_3572 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:56 EDT [26632]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:56 EDT [26632]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4514_2e9d is done
+2015-08-25 12:24:56 EDT [26632]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4514_2e9d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:56 EDT [26635]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:56 EDT [26635]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_2ee5 is done
+2015-08-25 12:24:56 EDT [26635]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_2ee5 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:24:57 EDT [26530]: [28-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:57 EDT [26530]: [29-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:57 EDT [26530]: [30-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:57 EDT [26628]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:57 EDT [26628]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:57 EDT [26628]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:57 EDT [26628]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:57 EDT [26530]: [31-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:57 EDT [26530]: [32-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:24:57 EDT [26530]: [33-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:24:57 EDT [26570]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:24:57 EDT [26570]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:57 EDT [26570]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:24:57 EDT [26570]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:24:59 EDT [26689]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:24:59 EDT [26689]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4519_2fd8 is done
+2015-08-25 12:24:59 EDT [26689]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4519_2fd8 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:00 EDT [26630]: [37-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:00 EDT [26630]: [38-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_2e54 is done
+2015-08-25 12:25:00 EDT [26630]: [39-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_2e54 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:00 EDT [26639]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:00 EDT [26639]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4448_20e0 is done
+2015-08-25 12:25:00 EDT [26639]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4448_20e0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:00 EDT [26630]: [40-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:00 EDT [26630]: [41-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_450f_384a is done
+2015-08-25 12:25:00 EDT [26630]: [42-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_450f_384a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:00 EDT [26637]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:00 EDT [26637]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_44eb_2d60 is done
+2015-08-25 12:25:00 EDT [26637]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_44eb_2d60 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:00 EDT [26647]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:00 EDT [26647]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_44eb_2d64 is done
+2015-08-25 12:25:00 EDT [26647]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_44eb_2d64 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:01 EDT [26530]: [34-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:01 EDT [26530]: [35-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:01 EDT [26530]: [36-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:25:01 EDT [26687]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:25:01 EDT [26687]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:01 EDT [26687]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:25:01 EDT [26687]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:01 EDT [26630]: [43-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:01 EDT [26630]: [44-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4445_22ff is done
+2015-08-25 12:25:01 EDT [26630]: [45-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4445_22ff producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:01 EDT [26637]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:01 EDT [26637]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4528_213a is done
+2015-08-25 12:25:01 EDT [26637]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4528_213a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:01 EDT [26614]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:01 EDT [26614]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4519_3127 is done
+2015-08-25 12:25:01 EDT [26614]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4519_3127 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:03 EDT [26636]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:03 EDT [26636]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4448_2217 is done
+2015-08-25 12:25:03 EDT [26636]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4448_2217 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:03 EDT [26530]: [37-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:03 EDT [26530]: [38-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:03 EDT [26530]: [39-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:25:03 EDT [26646]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:25:03 EDT [26646]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:03 EDT [26646]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:25:03 EDT [26646]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:03 EDT [26637]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:03 EDT [26637]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4519_3200 is done
+2015-08-25 12:25:03 EDT [26637]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4519_3200 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:03 EDT [26530]: [40-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:03 EDT [26530]: [41-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:03 EDT [26530]: [42-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:25:03 EDT [26665]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:25:03 EDT [26665]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:03 EDT [26665]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:25:03 EDT [26665]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:06 EDT [26630]: [46-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:06 EDT [26630]: [47-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_450f_3ae6 is done
+2015-08-25 12:25:06 EDT [26630]: [48-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_450f_3ae6 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:08 EDT [26630]: [49-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:08 EDT [26630]: [50-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4528_2525 is done
+2015-08-25 12:25:08 EDT [26630]: [51-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4528_2525 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:10 EDT [26530]: [43-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:10 EDT [26530]: [44-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:10 EDT [26530]: [45-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:25:10 EDT [26624]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:25:10 EDT [26624]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:10 EDT [26624]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:25:10 EDT [26624]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:11 EDT [26689]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:11 EDT [26689]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4448_267b is done
+2015-08-25 12:25:11 EDT [26689]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4448_267b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:11 EDT [26607]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:11 EDT [26607]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_44eb_2de7 is done
+2015-08-25 12:25:11 EDT [26607]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_44eb_2de7 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:14 EDT [26653]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:14 EDT [26653]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_44eb_2e93 is done
+2015-08-25 12:25:14 EDT [26653]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_44eb_2e93 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:14 EDT [26648]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:14 EDT [26648]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4448_27b3 is done
+2015-08-25 12:25:14 EDT [26648]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4448_27b3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:15 EDT [26644]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 6 tuples, 1 tuples to self, 5 to other nodes
+2015-08-25 12:25:15 EDT [26644]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4514_370b is done
+2015-08-25 12:25:15 EDT [26644]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4514_370b producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:25:15 EDT [26630]: [52-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:15 EDT [26630]: [53-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_3321 is done
+2015-08-25 12:25:15 EDT [26630]: [54-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_3321 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:15 EDT [26607]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:15 EDT [26607]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4448_27c8 is done
+2015-08-25 12:25:15 EDT [26607]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4448_27c8 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:16 EDT [26653]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:16 EDT [26653]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4523_2967 is done
+2015-08-25 12:25:16 EDT [26653]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4523_2967 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:17 EDT [26603]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:17 EDT [26603]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4519_33f9 is done
+2015-08-25 12:25:17 EDT [26603]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4519_33f9 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:17 EDT [26689]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:17 EDT [26689]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4519_3446 is done
+2015-08-25 12:25:17 EDT [26689]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4519_3446 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:18 EDT [26639]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:18 EDT [26639]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4528_28a2 is done
+2015-08-25 12:25:18 EDT [26639]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4528_28a2 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:20 EDT [26648]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:20 EDT [26648]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4523_2a0b is done
+2015-08-25 12:25:20 EDT [26648]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4523_2a0b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:21 EDT [26689]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:21 EDT [26689]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4528_28d0 is done
+2015-08-25 12:25:21 EDT [26689]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4528_28d0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:21 EDT [26603]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:21 EDT [26603]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_44eb_304c is done
+2015-08-25 12:25:21 EDT [26603]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_44eb_304c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:21 EDT [26603]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:21 EDT [26603]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4523_2a5f is done
+2015-08-25 12:25:21 EDT [26603]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4523_2a5f producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:22 EDT [26689]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:22 EDT [26689]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_36a3 is done
+2015-08-25 12:25:22 EDT [26689]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_36a3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:23 EDT [26530]: [46-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:23 EDT [26530]: [47-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:23 EDT [26530]: [48-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:25:23 EDT [26677]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:25:23 EDT [26677]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:23 EDT [26677]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:25:23 EDT [26677]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:25 EDT [26630]: [55-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 11 tuples, 0 tuples to self, 11 to other nodes
+2015-08-25 12:25:25 EDT [26630]: [56-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4514_39ff is done
+2015-08-25 12:25:25 EDT [26630]: [57-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4514_39ff producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:25 EDT [26636]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:25 EDT [26636]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4445_2caa is done
+2015-08-25 12:25:25 EDT [26636]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4445_2caa producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:25 EDT [26597]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:25 EDT [26597]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_44eb_31d6 is done
+2015-08-25 12:25:25 EDT [26597]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_44eb_31d6 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:25 EDT [26530]: [49-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:25 EDT [26530]: [50-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:25:25 EDT [26530]: [51-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:25:25 EDT [26667]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:25:25 EDT [26667]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:25 EDT [26667]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:25:25 EDT [26667]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:25:28 EDT [26645]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:28 EDT [26645]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4519_38da is done
+2015-08-25 12:25:28 EDT [26645]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4519_38da producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:30 EDT [26639]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:30 EDT [26639]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_3854 is done
+2015-08-25 12:25:30 EDT [26639]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_3854 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:30 EDT [26603]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:30 EDT [26603]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_451e_3858 is done
+2015-08-25 12:25:30 EDT [26603]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_451e_3858 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:30 EDT [26648]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:30 EDT [26648]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4519_3a33 is done
+2015-08-25 12:25:30 EDT [26648]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4519_3a33 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:32 EDT [26689]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:32 EDT [26689]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4440_3713 is done
+2015-08-25 12:25:32 EDT [26689]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4440_3713 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:33 EDT [26630]: [58-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:33 EDT [26630]: [59-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_3ae4 is done
+2015-08-25 12:25:33 EDT [26630]: [60-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_3ae4 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:33 EDT [26644]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4528_2940 is done
+2015-08-25 12:25:33 EDT [26644]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:25:33 EDT [26644]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 FATAL:  Timeout while waiting for Consumers finishing
+2015-08-25 12:25:33 EDT [26644]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:25:33 EDT [26644]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 WARNING:  AbortTransaction while in ABORT state
+2015-08-25 12:25:33 EDT [26644]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4528_2940 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:33 EDT [26649]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 WARNING:  there is no transaction in progress
+2015-08-25 12:25:33 EDT [26632]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:33 EDT [26632]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4448_2db6 is done
+2015-08-25 12:25:33 EDT [26632]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4448_2db6 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:33 EDT [26645]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:33 EDT [26645]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4448_2dba is done
+2015-08-25 12:25:33 EDT [26645]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4448_2dba producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:34 EDT [26603]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:34 EDT [26603]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4448_2e11 is done
+2015-08-25 12:25:34 EDT [26603]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4448_2e11 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:34 EDT [26630]: [61-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:34 EDT [26630]: [62-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_3c05 is done
+2015-08-25 12:25:34 EDT [26630]: [63-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_3c05 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:25:34 EDT [26653]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 11 tuples, 1 tuples to self, 10 to other nodes
+2015-08-25 12:25:34 EDT [26653]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4514_3d73 is done
+2015-08-25 12:25:34 EDT [26653]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4514_3d73 producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:25:36 EDT [26689]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:25:36 EDT [26689]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_44eb_3593 is done
+2015-08-25 12:25:36 EDT [26689]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_44eb_3593 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:32 EDT [26530]: [52-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:27:32 EDT [26530]: [53-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:27:32 EDT [26594]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:32 EDT [26594]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_450f_501c is done
+2015-08-25 12:27:32 EDT [26594]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_450f_501c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:32 EDT [26530]: [54-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:27:32 EDT [26530]: [55-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:27:32 EDT [26530]: [56-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:27:32 EDT [26720]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:27:32 EDT [26720]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:27:32 EDT [26720]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:27:32 EDT [26720]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:27:32 EDT [26591]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:32 EDT [26591]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4514_508d is done
+2015-08-25 12:27:32 EDT [26591]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4514_508d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:42 EDT [26631]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:42 EDT [26631]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer p_1_4448_3ec6 is done
+2015-08-25 12:27:42 EDT [26631]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Tuplestore p_1_4448_3ec6 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:43 EDT [26647]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:43 EDT [26647]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_450f_502e is done
+2015-08-25 12:27:43 EDT [26647]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_450f_502e producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:44 EDT [26614]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:44 EDT [26614]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_3bac is done
+2015-08-25 12:27:44 EDT [26614]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_3bac producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:48 EDT [26697]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:48 EDT [26697]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_5258 is done
+2015-08-25 12:27:48 EDT [26697]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_5258 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:49 EDT [26604]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:49 EDT [26604]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4523_431e is done
+2015-08-25 12:27:49 EDT [26604]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4523_431e producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:49 EDT [26697]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:49 EDT [26697]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4448_4012 is done
+2015-08-25 12:27:49 EDT [26697]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4448_4012 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:54 EDT [26647]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:54 EDT [26647]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4519_53d0 is done
+2015-08-25 12:27:54 EDT [26647]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4519_53d0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:55 EDT [26647]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:55 EDT [26647]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_4185 is done
+2015-08-25 12:27:55 EDT [26647]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_4185 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:55 EDT [26697]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:55 EDT [26697]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4519_549a is done
+2015-08-25 12:27:55 EDT [26697]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4519_549a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:57 EDT [26635]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:57 EDT [26635]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_557d is done
+2015-08-25 12:27:57 EDT [26635]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_557d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:27:59 EDT [26631]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:27:59 EDT [26631]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer p_1_4528_4554 is done
+2015-08-25 12:27:59 EDT [26631]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Tuplestore p_1_4528_4554 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:01 EDT [26633]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:01 EDT [26633]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4440_4da8 is done
+2015-08-25 12:28:01 EDT [26633]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4440_4da8 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:02 EDT [26647]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:02 EDT [26647]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4519_5966 is done
+2015-08-25 12:28:02 EDT [26647]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4519_5966 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:02 EDT [26614]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:02 EDT [26614]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_44eb_4cac is done
+2015-08-25 12:28:02 EDT [26614]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_44eb_4cac producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:03 EDT [26593]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:03 EDT [26593]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_450f_529b is done
+2015-08-25 12:28:03 EDT [26593]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_450f_529b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:04 EDT [26599]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:04 EDT [26599]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_451e_4f27 is done
+2015-08-25 12:28:04 EDT [26599]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_451e_4f27 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:07 EDT [26606]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:07 EDT [26606]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_5250 is done
+2015-08-25 12:28:07 EDT [26606]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_5250 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:07 EDT [26631]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:07 EDT [26631]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer p_1_451e_532e is done
+2015-08-25 12:28:07 EDT [26631]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Tuplestore p_1_451e_532e producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:08 EDT [26730]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:08 EDT [26730]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_451e_540b is done
+2015-08-25 12:28:08 EDT [26730]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_451e_540b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:09 EDT [26604]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:09 EDT [26604]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_451e_54b0 is done
+2015-08-25 12:28:09 EDT [26604]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_451e_54b0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:10 EDT [26591]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:10 EDT [26591]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_451e_5651 is done
+2015-08-25 12:28:10 EDT [26591]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_451e_5651 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:11 EDT [26633]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:11 EDT [26633]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_451e_5757 is done
+2015-08-25 12:28:11 EDT [26633]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_451e_5757 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:13 EDT [26635]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:13 EDT [26635]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4528_480d is done
+2015-08-25 12:28:13 EDT [26635]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4528_480d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:17 EDT [26604]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:17 EDT [26604]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4528_49f8 is done
+2015-08-25 12:28:17 EDT [26604]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4528_49f8 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:18 EDT [26604]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:18 EDT [26604]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_450f_553a is done
+2015-08-25 12:28:18 EDT [26604]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_450f_553a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:18 EDT [26730]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:18 EDT [26730]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4445_3fcd is done
+2015-08-25 12:28:18 EDT [26730]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4445_3fcd producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:19 EDT [26697]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:19 EDT [26697]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_5d28 is done
+2015-08-25 12:28:19 EDT [26697]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_5d28 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:19 EDT [26636]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:19 EDT [26636]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4445_409c is done
+2015-08-25 12:28:19 EDT [26636]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4445_409c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:21 EDT [26645]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:21 EDT [26645]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_451e_5e4d is done
+2015-08-25 12:28:21 EDT [26645]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_451e_5e4d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:22 EDT [26689]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 17 tuples, 1 tuples to self, 16 to other nodes
+2015-08-25 12:28:22 EDT [26689]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_5975 is done
+2015-08-25 12:28:22 EDT [26689]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_5975 producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:28:22 EDT [26603]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:22 EDT [26603]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4445_4256 is done
+2015-08-25 12:28:22 EDT [26603]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4445_4256 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:23 EDT [26639]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:23 EDT [26639]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_5f65 is done
+2015-08-25 12:28:23 EDT [26639]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_5f65 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:23 EDT [26639]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:23 EDT [26639]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_450f_57ad is done
+2015-08-25 12:28:23 EDT [26639]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_450f_57ad producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:25 EDT [26639]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:25 EDT [26639]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_60c5 is done
+2015-08-25 12:28:25 EDT [26639]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_60c5 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:27 EDT [26607]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:27 EDT [26607]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_6251 is done
+2015-08-25 12:28:27 EDT [26607]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_6251 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:34 EDT [26605]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:34 EDT [26605]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Producer p_1_451e_6829 is done
+2015-08-25 12:28:34 EDT [26605]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.92.9.245 LOG:  Tuplestore p_1_451e_6829 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:35 EDT [26603]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:35 EDT [26603]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4440_5097 is done
+2015-08-25 12:28:35 EDT [26603]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4440_5097 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:36 EDT [26639]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:36 EDT [26639]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4440_5128 is done
+2015-08-25 12:28:36 EDT [26639]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4440_5128 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:40 EDT [26636]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:40 EDT [26636]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4440_55dc is done
+2015-08-25 12:28:40 EDT [26636]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4440_55dc producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:40 EDT [26607]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:40 EDT [26607]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_560b is done
+2015-08-25 12:28:40 EDT [26607]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_560b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:40 EDT [26597]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:40 EDT [26597]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4440_5665 is done
+2015-08-25 12:28:40 EDT [26597]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4440_5665 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:41 EDT [26603]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:41 EDT [26603]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4440_56fb is done
+2015-08-25 12:28:41 EDT [26603]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4440_56fb producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:41 EDT [26653]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:41 EDT [26653]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_451e_6f92 is done
+2015-08-25 12:28:41 EDT [26653]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_451e_6f92 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:42 EDT [26630]: [64-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:42 EDT [26630]: [65-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_7074 is done
+2015-08-25 12:28:42 EDT [26630]: [66-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_7074 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:43 EDT [26630]: [67-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:43 EDT [26630]: [68-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_71fb is done
+2015-08-25 12:28:43 EDT [26630]: [69-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_71fb producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:44 EDT [26689]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:44 EDT [26689]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_72ac is done
+2015-08-25 12:28:44 EDT [26689]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_72ac producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:44 EDT [26607]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:44 EDT [26607]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4523_4525 is done
+2015-08-25 12:28:44 EDT [26607]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4523_4525 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:45 EDT [26603]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 26 tuples, 1 tuples to self, 25 to other nodes
+2015-08-25 12:28:45 EDT [26603]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4514_5b2b is done
+2015-08-25 12:28:45 EDT [26603]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4514_5b2b producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:28:45 EDT [26597]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:45 EDT [26597]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4445_4c0a is done
+2015-08-25 12:28:45 EDT [26597]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4445_4c0a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:47 EDT [26653]: [37-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 26 tuples, 2 tuples to self, 24 to other nodes
+2015-08-25 12:28:47 EDT [26653]: [38-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4514_5c0d is done
+2015-08-25 12:28:47 EDT [26653]: [39-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4514_5c0d producer store did 2 writes and 2 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:28:47 EDT [26597]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:47 EDT [26597]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4448_493a is done
+2015-08-25 12:28:47 EDT [26597]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4448_493a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:57 EDT [26597]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:57 EDT [26597]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_451e_745a is done
+2015-08-25 12:28:57 EDT [26597]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_451e_745a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:57 EDT [26597]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:57 EDT [26597]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4440_5b94 is done
+2015-08-25 12:28:57 EDT [26597]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4440_5b94 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:28:59 EDT [26630]: [70-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:28:59 EDT [26630]: [71-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4528_4faf is done
+2015-08-25 12:28:59 EDT [26630]: [72-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4528_4faf producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:29:01 EDT [26630]: [73-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:29:01 EDT [26630]: [74-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4448_4ba3 is done
+2015-08-25 12:29:01 EDT [26630]: [75-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4448_4ba3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:29:03 EDT [26591]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:29:03 EDT [26591]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4440_6033 is done
+2015-08-25 12:29:03 EDT [26591]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4440_6033 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:29:03 EDT [26653]: [40-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:29:03 EDT [26653]: [41-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4440_6099 is done
+2015-08-25 12:29:03 EDT [26653]: [42-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4440_6099 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:29:05 EDT [26607]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:29:05 EDT [26607]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4448_4f12 is done
+2015-08-25 12:29:05 EDT [26607]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4448_4f12 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:29:07 EDT [26632]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_450f_5a2d is done
+2015-08-25 12:29:07 EDT [26632]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:29:07 EDT [26632]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 FATAL:  Timeout while waiting for Consumers finishing
+2015-08-25 12:29:07 EDT [26632]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:29:07 EDT [26632]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 WARNING:  AbortTransaction while in ABORT state
+2015-08-25 12:29:07 EDT [26632]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_450f_5a2d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:29:10 EDT [26630]: [76-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:29:10 EDT [26630]: [77-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_6499 is done
+2015-08-25 12:29:10 EDT [26630]: [78-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_6499 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:10 EDT [26530]: [57-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:31:10 EDT [26530]: [58-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:31:10 EDT [26639]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 22 tuples, 0 tuples to self, 22 to other nodes
+2015-08-25 12:31:10 EDT [26639]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_7338 is done
+2015-08-25 12:31:10 EDT [26639]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_7338 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:10 EDT [26607]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:10 EDT [26607]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_7a81 is done
+2015-08-25 12:31:10 EDT [26607]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_7a81 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:13 EDT [26597]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:13 EDT [26597]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4528_7300 is done
+2015-08-25 12:31:13 EDT [26597]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4528_7300 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:14 EDT [26607]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:14 EDT [26607]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4528_74b1 is done
+2015-08-25 12:31:14 EDT [26607]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4528_74b1 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:15 EDT [26647]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:15 EDT [26647]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_7552 is done
+2015-08-25 12:31:15 EDT [26647]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_7552 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:19 EDT [26607]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:19 EDT [26607]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4528_7b40 is done
+2015-08-25 12:31:19 EDT [26607]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4528_7b40 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:23 EDT [26630]: [79-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:23 EDT [26630]: [80-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4523_5da7 is done
+2015-08-25 12:31:23 EDT [26630]: [81-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4523_5da7 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:24 EDT [26597]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 29 tuples, 3 tuples to self, 26 to other nodes
+2015-08-25 12:31:24 EDT [26597]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4514_7422 is done
+2015-08-25 12:31:24 EDT [26597]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4514_7422 producer store did 3 writes and 3 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:31:25 EDT [26653]: [43-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:25 EDT [26653]: [44-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4445_5a16 is done
+2015-08-25 12:31:25 EDT [26653]: [45-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4445_5a16 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:25 EDT [26607]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:25 EDT [26607]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_450f_711c is done
+2015-08-25 12:31:25 EDT [26607]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_450f_711c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:35 EDT [26653]: [46-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:35 EDT [26653]: [47-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_450f_7da2 is done
+2015-08-25 12:31:35 EDT [26653]: [48-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_450f_7da2 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:37 EDT [26689]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:37 EDT [26689]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4519_7cf8 is done
+2015-08-25 12:31:37 EDT [26689]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4519_7cf8 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:40 EDT [26645]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:40 EDT [26645]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4445_5e17 is done
+2015-08-25 12:31:40 EDT [26645]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4445_5e17 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:41 EDT [26630]: [82-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:41 EDT [26630]: [83-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4445_5f41 is done
+2015-08-25 12:31:41 EDT [26630]: [84-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4445_5f41 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:43 EDT [26597]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:43 EDT [26597]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4445_61cc is done
+2015-08-25 12:31:43 EDT [26597]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4445_61cc producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:45 EDT [26780]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:45 EDT [26780]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4445_640c is done
+2015-08-25 12:31:45 EDT [26780]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4445_640c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:45 EDT [26607]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:45 EDT [26607]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4445_6472 is done
+2015-08-25 12:31:45 EDT [26607]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4445_6472 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:46 EDT [26637]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:46 EDT [26637]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4445_64ec is done
+2015-08-25 12:31:46 EDT [26637]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4445_64ec producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:46 EDT [26594]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4514_7533 is done
+2015-08-25 12:31:46 EDT [26594]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:31:46 EDT [26594]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 FATAL:  Timeout while waiting for Consumers finishing
+2015-08-25 12:31:46 EDT [26594]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:31:46 EDT [26594]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 WARNING:  AbortTransaction while in ABORT state
+2015-08-25 12:31:46 EDT [26594]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4514_7533 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:48 EDT [26772]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:48 EDT [26772]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4448_6920 is done
+2015-08-25 12:31:48 EDT [26772]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4448_6920 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:49 EDT [26630]: [85-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:31:49 EDT [26630]: [86-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4445_684e is done
+2015-08-25 12:31:49 EDT [26630]: [87-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4445_684e producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:31:55 EDT [26744]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  process 26744 still waiting for ShareLock on transaction 338562 after 1000.111 ms
+2015-08-25 12:31:55 EDT [26744]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 DETAIL:  Process holding the lock: 0. Wait queue: 26744.
+2015-08-25 12:31:55 EDT [26744]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 CONTEXT:  while rechecking updated tuple (0,44) in relation "district"
+2015-08-25 12:31:55 EDT [26744]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:31:57 EDT [26744]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  process 26744 acquired ShareLock on transaction 338562 after 3112.945 ms
+2015-08-25 12:31:57 EDT [26744]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 CONTEXT:  while rechecking updated tuple (0,44) in relation "district"
+2015-08-25 12:31:57 EDT [26744]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:31:58 EDT [26768]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  Connection error Timeout while waiting for Consumers finishing
+2015-08-25 12:31:58 EDT [26768]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:31:58 EDT [26768]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  Connection error Datanode closed the connection unexpectedly
+		This probably means the Datanode terminated abnormally
+		before or while processing the request.
+	
+2015-08-25 12:31:58 EDT [26768]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:31:58 EDT [26768]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  Connection error unexpected EOF on datanode connection
+2015-08-25 12:31:58 EDT [26768]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:31:58 EDT [26768]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 WARNING:  unexpected EOF on datanode connection
+2015-08-25 12:31:58 EDT [26768]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Timeout while waiting for Consumers finishing
+2015-08-25 12:31:58 EDT [26768]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:31:58 EDT [26530]: [59-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:32:33 EDT [26760]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 WARNING:  there is no transaction in progress
+2015-08-25 12:33:55 EDT [26786]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 WARNING:  Expected to see a snapshot sent by the coordinator  - now taking a direct snapshot from GTM
+2015-08-25 12:33:56 EDT [26530]: [60-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:33:56 EDT [26530]: [61-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:33:56 EDT [26530]: [62-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:33:56 EDT [26802]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:33:56 EDT [26802]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:33:56 EDT [26802]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:33:56 EDT [26802]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:33:56 EDT [26530]: [63-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:33:56 EDT [26530]: [64-1] user=,db=,app=,client= WARNING:  Unexpected data on connection, cleaning.
+2015-08-25 12:33:57 EDT [26630]: [88-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:33:57 EDT [26630]: [89-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_949a is done
+2015-08-25 12:33:57 EDT [26630]: [90-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_949a producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:33:57 EDT [26607]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 12 tuples, 1 tuples to self, 11 to other nodes
+2015-08-25 12:33:57 EDT [26607]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4523_76cb is done
+2015-08-25 12:33:57 EDT [26607]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4523_76cb producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:33:58 EDT [26597]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:33:58 EDT [26597]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4440_7f6e is done
+2015-08-25 12:33:58 EDT [26597]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4440_7f6e producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:33:58 EDT [26597]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:33:58 EDT [26597]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4514_8d2d is done
+2015-08-25 12:33:58 EDT [26597]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4514_8d2d producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:33:59 EDT [26653]: [49-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:33:59 EDT [26653]: [50-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4514_8ecd is done
+2015-08-25 12:33:59 EDT [26653]: [51-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4514_8ecd producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:07 EDT [26780]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:07 EDT [26780]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4440_7fc3 is done
+2015-08-25 12:34:07 EDT [26780]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4440_7fc3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:10 EDT [26637]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:10 EDT [26637]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4528_98b9 is done
+2015-08-25 12:34:10 EDT [26637]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4528_98b9 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:11 EDT [26639]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:11 EDT [26639]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4528_999c is done
+2015-08-25 12:34:11 EDT [26639]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4528_999c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:12 EDT [26607]: [37-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:12 EDT [26607]: [38-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_a88f is done
+2015-08-25 12:34:12 EDT [26607]: [39-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_a88f producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:13 EDT [26645]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:13 EDT [26645]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4448_8066 is done
+2015-08-25 12:34:13 EDT [26645]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4448_8066 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:15 EDT [26636]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:15 EDT [26636]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4519_9740 is done
+2015-08-25 12:34:15 EDT [26636]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4519_9740 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:16 EDT [26607]: [40-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:16 EDT [26607]: [41-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4528_9c17 is done
+2015-08-25 12:34:16 EDT [26607]: [42-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4528_9c17 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:17 EDT [26530]: [65-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [66-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [67-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:17 EDT [26798]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:17 EDT [26798]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26798]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:17 EDT [26798]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26530]: [68-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [69-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [70-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:17 EDT [26800]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:17 EDT [26800]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26800]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:17 EDT [26800]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26530]: [71-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [72-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [73-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:17 EDT [26812]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:17 EDT [26812]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26812]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:17 EDT [26812]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26530]: [74-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [75-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:17 EDT [26530]: [76-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:17 EDT [26804]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:17 EDT [26804]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26804]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:17 EDT [26804]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:17 EDT [26630]: [91-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:17 EDT [26630]: [92-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_82fe is done
+2015-08-25 12:34:17 EDT [26630]: [93-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_82fe producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:17 EDT [26607]: [43-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:17 EDT [26607]: [44-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_8302 is done
+2015-08-25 12:34:17 EDT [26607]: [45-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_8302 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:18 EDT [26689]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 30 tuples, 2 tuples to self, 28 to other nodes
+2015-08-25 12:34:18 EDT [26689]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4445_78ce is done
+2015-08-25 12:34:18 EDT [26689]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4445_78ce producer store did 2 writes and 2 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:34:19 EDT [26607]: [46-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:19 EDT [26607]: [47-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_8476 is done
+2015-08-25 12:34:19 EDT [26607]: [48-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_8476 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:19 EDT [26636]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:19 EDT [26636]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4519_98b4 is done
+2015-08-25 12:34:19 EDT [26636]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4519_98b4 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:19 EDT [26630]: [94-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:19 EDT [26630]: [95-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_450f_9d36 is done
+2015-08-25 12:34:19 EDT [26630]: [96-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_450f_9d36 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:20 EDT [26630]: [97-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:20 EDT [26630]: [98-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_ab16 is done
+2015-08-25 12:34:20 EDT [26630]: [99-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_ab16 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:20 EDT [26689]: [37-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:20 EDT [26689]: [38-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_9538 is done
+2015-08-25 12:34:20 EDT [26689]: [39-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_9538 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:21 EDT [26597]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 30 tuples, 1 tuples to self, 29 to other nodes
+2015-08-25 12:34:21 EDT [26597]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4445_79b2 is done
+2015-08-25 12:34:21 EDT [26597]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4445_79b2 producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:34:21 EDT [26772]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:21 EDT [26772]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4519_9a00 is done
+2015-08-25 12:34:21 EDT [26772]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4519_9a00 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:24 EDT [26607]: [49-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:24 EDT [26607]: [50-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_ada5 is done
+2015-08-25 12:34:24 EDT [26607]: [51-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_ada5 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:24 EDT [26689]: [40-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:24 EDT [26689]: [41-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_450f_9f31 is done
+2015-08-25 12:34:24 EDT [26689]: [42-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_450f_9f31 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:24 EDT [26630]: [100-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:24 EDT [26630]: [101-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4514_9785 is done
+2015-08-25 12:34:24 EDT [26630]: [102-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4514_9785 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:24 EDT [26772]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:24 EDT [26772]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4519_9bf0 is done
+2015-08-25 12:34:24 EDT [26772]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4519_9bf0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:25 EDT [26639]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:25 EDT [26639]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4440_8781 is done
+2015-08-25 12:34:25 EDT [26639]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4440_8781 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:26 EDT [26639]: [37-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:26 EDT [26639]: [38-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_9882 is done
+2015-08-25 12:34:26 EDT [26639]: [39-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_9882 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:26 EDT [26637]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:26 EDT [26637]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_451e_aeef is done
+2015-08-25 12:34:26 EDT [26637]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_451e_aeef producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:27 EDT [26689]: [43-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:27 EDT [26689]: [44-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_450f_a06b is done
+2015-08-25 12:34:27 EDT [26689]: [45-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_450f_a06b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:27 EDT [26689]: [46-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:27 EDT [26689]: [47-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_9950 is done
+2015-08-25 12:34:27 EDT [26689]: [48-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_9950 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:27 EDT [26530]: [77-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:27 EDT [26530]: [78-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:27 EDT [26530]: [79-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:27 EDT [26812]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:27 EDT [26812]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:27 EDT [26812]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:27 EDT [26812]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:27 EDT [26530]: [80-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:27 EDT [26530]: [81-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:27 EDT [26530]: [82-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:27 EDT [26806]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:27 EDT [26806]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:27 EDT [26806]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:27 EDT [26806]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:29 EDT [26607]: [52-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:29 EDT [26607]: [53-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_9db4 is done
+2015-08-25 12:34:29 EDT [26607]: [54-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_9db4 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:29 EDT [26597]: [37-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:29 EDT [26597]: [38-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4519_9e03 is done
+2015-08-25 12:34:29 EDT [26597]: [39-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4519_9e03 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:30 EDT [26636]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:30 EDT [26636]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4528_9e33 is done
+2015-08-25 12:34:30 EDT [26636]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4528_9e33 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:30 EDT [26639]: [40-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:30 EDT [26639]: [41-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4519_9ea3 is done
+2015-08-25 12:34:30 EDT [26639]: [42-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4519_9ea3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:32 EDT [26530]: [83-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:32 EDT [26530]: [84-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:32 EDT [26530]: [85-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:32 EDT [26808]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:32 EDT [26808]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:32 EDT [26808]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:32 EDT [26808]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:33 EDT [26728]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:33 EDT [26728]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Producer p_1_4445_8016 is done
+2015-08-25 12:34:33 EDT [26728]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.95.141.120 LOG:  Tuplestore p_1_4445_8016 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:34 EDT [26630]: [103-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:34 EDT [26630]: [104-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4514_9e27 is done
+2015-08-25 12:34:34 EDT [26630]: [105-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4514_9e27 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:35 EDT [26645]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:35 EDT [26645]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4514_9e61 is done
+2015-08-25 12:34:35 EDT [26645]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4514_9e61 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:35 EDT [26780]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:35 EDT [26780]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_a0fd is done
+2015-08-25 12:34:35 EDT [26780]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_a0fd producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:37 EDT [26645]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:37 EDT [26645]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_451e_af51 is done
+2015-08-25 12:34:37 EDT [26645]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_451e_af51 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:37 EDT [26653]: [52-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:37 EDT [26653]: [53-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4448_813b is done
+2015-08-25 12:34:37 EDT [26653]: [54-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4448_813b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:38 EDT [26597]: [40-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:38 EDT [26597]: [41-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4528_a302 is done
+2015-08-25 12:34:38 EDT [26597]: [42-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4528_a302 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:38 EDT [26636]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:38 EDT [26636]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4528_a36b is done
+2015-08-25 12:34:38 EDT [26636]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4528_a36b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:39 EDT [26607]: [55-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:39 EDT [26607]: [56-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4519_a31e is done
+2015-08-25 12:34:39 EDT [26607]: [57-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4519_a31e producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:40 EDT [26530]: [86-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:40 EDT [26530]: [87-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:40 EDT [26530]: [88-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:40 EDT [26810]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:40 EDT [26810]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:40 EDT [26810]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:40 EDT [26810]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:40 EDT [26597]: [43-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:40 EDT [26597]: [44-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_4440_89cb is done
+2015-08-25 12:34:40 EDT [26597]: [45-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_4440_89cb producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:40 EDT [26530]: [89-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:40 EDT [26530]: [90-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:40 EDT [26530]: [91-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:40 EDT [26802]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:40 EDT [26802]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:40 EDT [26802]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:40 EDT [26802]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:41 EDT [26530]: [92-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:41 EDT [26530]: [93-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:41 EDT [26530]: [94-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:41 EDT [26796]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:41 EDT [26796]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:41 EDT [26796]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:41 EDT [26796]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:42 EDT [26630]: [106-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:42 EDT [26630]: [107-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_8a65 is done
+2015-08-25 12:34:42 EDT [26630]: [108-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_8a65 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:42 EDT [26607]: [58-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:42 EDT [26607]: [59-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_451e_b0dc is done
+2015-08-25 12:34:42 EDT [26607]: [60-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_451e_b0dc producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:42 EDT [26607]: [61-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:42 EDT [26607]: [62-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_8a94 is done
+2015-08-25 12:34:42 EDT [26607]: [63-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_8a94 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:42 EDT [26730]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:42 EDT [26730]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Producer p_1_451e_b0e0 is done
+2015-08-25 12:34:42 EDT [26730]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.223.4.4 LOG:  Tuplestore p_1_451e_b0e0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:51 EDT [26599]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:51 EDT [26599]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_450f_a1d9 is done
+2015-08-25 12:34:51 EDT [26599]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_450f_a1d9 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:53 EDT [26593]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:53 EDT [26593]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4440_8b47 is done
+2015-08-25 12:34:53 EDT [26593]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4440_8b47 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:54 EDT [26822]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 18 tuples, 2 tuples to self, 16 to other nodes
+2015-08-25 12:34:54 EDT [26822]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4523_7e7b is done
+2015-08-25 12:34:54 EDT [26822]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4523_7e7b producer store did 2 writes and 2 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:34:54 EDT [26604]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:54 EDT [26604]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4448_83ce is done
+2015-08-25 12:34:54 EDT [26604]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4448_83ce producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:34:55 EDT [26530]: [95-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:55 EDT [26530]: [96-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:55 EDT [26530]: [97-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:55 EDT [26800]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:55 EDT [26800]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:55 EDT [26800]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:55 EDT [26800]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:55 EDT [26530]: [98-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:55 EDT [26530]: [99-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:34:55 EDT [26530]: [100-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:34:55 EDT [26786]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:34:55 EDT [26786]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:55 EDT [26786]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:34:55 EDT [26786]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:34:56 EDT [26593]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:34:56 EDT [26593]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4448_848f is done
+2015-08-25 12:34:56 EDT [26593]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4448_848f producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:07 EDT [26697]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 7 tuples, 1 tuples to self, 6 to other nodes
+2015-08-25 12:35:07 EDT [26697]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4523_80fc is done
+2015-08-25 12:35:07 EDT [26697]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4523_80fc producer store did 1 writes and 1 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 1
+2015-08-25 12:35:07 EDT [26606]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:07 EDT [26606]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4448_8570 is done
+2015-08-25 12:35:07 EDT [26606]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4448_8570 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:08 EDT [26530]: [101-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:08 EDT [26530]: [102-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:08 EDT [26530]: [103-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:08 EDT [26804]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:08 EDT [26804]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:08 EDT [26804]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:08 EDT [26804]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:08 EDT [26530]: [104-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:08 EDT [26530]: [105-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:08 EDT [26530]: [106-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:08 EDT [26798]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:08 EDT [26798]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:08 EDT [26798]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:08 EDT [26798]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:08 EDT [26697]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:08 EDT [26697]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4514_a2f3 is done
+2015-08-25 12:35:08 EDT [26697]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4514_a2f3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:19 EDT [26822]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:19 EDT [26822]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4528_a923 is done
+2015-08-25 12:35:19 EDT [26822]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4528_a923 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:20 EDT [26604]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 12 tuples, 0 tuples to self, 12 to other nodes
+2015-08-25 12:35:20 EDT [26604]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4523_8242 is done
+2015-08-25 12:35:20 EDT [26604]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4523_8242 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:21 EDT [26697]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:21 EDT [26697]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_b4f1 is done
+2015-08-25 12:35:21 EDT [26697]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_b4f1 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:22 EDT [26697]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:22 EDT [26697]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_b54b is done
+2015-08-25 12:35:22 EDT [26697]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_b54b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:22 EDT [26604]: [19-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:22 EDT [26604]: [20-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_451e_b558 is done
+2015-08-25 12:35:22 EDT [26604]: [21-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_451e_b558 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:22 EDT [26604]: [22-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:22 EDT [26604]: [23-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4514_a54b is done
+2015-08-25 12:35:22 EDT [26604]: [24-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4514_a54b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:23 EDT [26530]: [107-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:23 EDT [26530]: [108-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:23 EDT [26530]: [109-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:23 EDT [26800]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:23 EDT [26800]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:23 EDT [26800]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:23 EDT [26800]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:29 EDT [26604]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:29 EDT [26604]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4448_8f9c is done
+2015-08-25 12:35:29 EDT [26604]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4448_8f9c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:29 EDT [26697]: [25-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:29 EDT [26697]: [26-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4448_8fa0 is done
+2015-08-25 12:35:29 EDT [26697]: [27-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4448_8fa0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:32 EDT [26593]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:32 EDT [26593]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4448_92f7 is done
+2015-08-25 12:35:32 EDT [26593]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4448_92f7 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:32 EDT [26604]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:32 EDT [26604]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4448_92fb is done
+2015-08-25 12:35:32 EDT [26604]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4448_92fb producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:33 EDT [26530]: [110-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:33 EDT [26530]: [111-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:33 EDT [26530]: [112-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:33 EDT [26812]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:33 EDT [26812]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:33 EDT [26812]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:33 EDT [26812]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:33 EDT [26614]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:33 EDT [26614]: [17-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_44eb_8932 is done
+2015-08-25 12:35:33 EDT [26614]: [18-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_44eb_8932 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:33 EDT [26530]: [113-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:33 EDT [26530]: [114-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:33 EDT [26530]: [115-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:33 EDT [26802]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:33 EDT [26802]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:33 EDT [26802]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:33 EDT [26802]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:33 EDT [26530]: [116-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:33 EDT [26530]: [117-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:33 EDT [26530]: [118-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:33 EDT [26798]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:33 EDT [26798]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:33 EDT [26798]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:33 EDT [26798]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:34 EDT [26593]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:34 EDT [26593]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4448_9450 is done
+2015-08-25 12:35:34 EDT [26593]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4448_9450 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:35 EDT [26599]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:35 EDT [26599]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4445_8888 is done
+2015-08-25 12:35:35 EDT [26599]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4445_8888 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:35 EDT [26604]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:35 EDT [26604]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4519_a921 is done
+2015-08-25 12:35:35 EDT [26604]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4519_a921 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:35 EDT [26822]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:35 EDT [26822]: [8-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Producer p_1_4445_8915 is done
+2015-08-25 12:35:35 EDT [26822]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.94.132.84 LOG:  Tuplestore p_1_4445_8915 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:43 EDT [26697]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:43 EDT [26697]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4440_90fc is done
+2015-08-25 12:35:43 EDT [26697]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4440_90fc producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:44 EDT [26530]: [119-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:44 EDT [26530]: [120-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:44 EDT [26530]: [121-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:44 EDT [26804]: [9-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:44 EDT [26804]: [10-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:44 EDT [26804]: [11-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:44 EDT [26804]: [12-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:46 EDT [26604]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:46 EDT [26604]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4519_ab0b is done
+2015-08-25 12:35:46 EDT [26604]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4519_ab0b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:47 EDT [26818]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:47 EDT [26818]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_4528_ab40 is done
+2015-08-25 12:35:47 EDT [26818]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_4528_ab40 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:47 EDT [26599]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:47 EDT [26599]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4519_ab20 is done
+2015-08-25 12:35:47 EDT [26599]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4519_ab20 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:47 EDT [26697]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:47 EDT [26697]: [32-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_451e_b7d0 is done
+2015-08-25 12:35:47 EDT [26697]: [33-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_451e_b7d0 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:48 EDT [26697]: [34-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:48 EDT [26697]: [35-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4448_95f1 is done
+2015-08-25 12:35:48 EDT [26697]: [36-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4448_95f1 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:52 EDT [26616]: [1-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:52 EDT [26616]: [2-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4528_adc1 is done
+2015-08-25 12:35:52 EDT [26616]: [3-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4528_adc1 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:55 EDT [26604]: [37-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:55 EDT [26604]: [38-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_450f_a95c is done
+2015-08-25 12:35:55 EDT [26604]: [39-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_450f_a95c producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:35:55 EDT [26530]: [122-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:55 EDT [26530]: [123-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:55 EDT [26530]: [124-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:55 EDT [26802]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:55 EDT [26802]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:55 EDT [26802]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:55 EDT [26802]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:56 EDT [26530]: [125-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:56 EDT [26530]: [126-1] user=,db=,app=,client= LOG:  failed to connect to Datanode
+2015-08-25 12:35:56 EDT [26530]: [127-1] user=,db=,app=,client= WARNING:  can not connect to node 16385
+2015-08-25 12:35:56 EDT [26812]: [13-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 LOG:  failed to acquire connections
+2015-08-25 12:35:56 EDT [26812]: [14-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:56 EDT [26812]: [15-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 ERROR:  Failed to get pooled connections
+2015-08-25 12:35:56 EDT [26812]: [16-1] user=mark,db=dbt2,app=pgxc,client=10.93.131.148 STATEMENT:  Remote Subplan
+2015-08-25 12:35:56 EDT [26604]: [40-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:35:56 EDT [26604]: [41-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Producer p_1_4445_8cff is done
+2015-08-25 12:35:56 EDT [26604]: [42-1] user=mark,db=dbt2,app=pgxc,client=10.87.8.227 LOG:  Tuplestore p_1_4445_8cff producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:36:06 EDT [26689]: [49-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Producer p_1_4448_990b is done
+2015-08-25 12:36:06 EDT [26689]: [50-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:36:06 EDT [26689]: [51-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 FATAL:  Timeout while waiting for Consumers finishing
+2015-08-25 12:36:06 EDT [26689]: [52-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 STATEMENT:  ROLLBACK TRANSACTION
+2015-08-25 12:36:06 EDT [26689]: [53-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 WARNING:  AbortTransaction while in ABORT state
+2015-08-25 12:36:06 EDT [26689]: [54-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.232 LOG:  Tuplestore p_1_4448_990b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:36:08 EDT [26818]: [4-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:36:08 EDT [26818]: [5-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Producer p_1_450f_ab2b is done
+2015-08-25 12:36:08 EDT [26818]: [6-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.206 LOG:  Tuplestore p_1_450f_ab2b producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:36:09 EDT [26635]: [28-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer stats: total 0 tuples, 0 tuples to self, 0 to other nodes
+2015-08-25 12:36:09 EDT [26635]: [29-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Producer p_1_4440_96e3 is done
+2015-08-25 12:36:09 EDT [26635]: [30-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 LOG:  Tuplestore p_1_4440_96e3 producer store did 0 writes and 0 reads, it spilled to disk after 0 writes and 0 reads, now deleted 0 memtuples out of 0
+2015-08-25 12:36:21 EDT [26531]: [1-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-08-25 12:38:04 EDT [26531]: [2-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1029 buffers (0.1%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=102.950 s, sync=0.028 s, total=102.986 s; sync files=47, longest=0.007 s, average=0.000 s; distance=11993 kB, estimate=11993 kB
+2015-08-25 12:38:08 EDT [26528]: [2-1] user=,db=,app=,client= LOG:  received fast shutdown request
+2015-08-25 12:38:08 EDT [26528]: [3-1] user=,db=,app=,client= LOG:  aborting any active transactions
+2015-08-25 12:38:08 EDT [26630]: [109-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 FATAL:  terminating connection due to administrator command
+2015-08-25 12:38:08 EDT [26635]: [31-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 FATAL:  terminating connection due to administrator command
+2015-08-25 12:38:08 EDT [26607]: [64-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 FATAL:  terminating connection due to administrator command
+2015-08-25 12:38:08 EDT [26606]: [7-1] user=mark,db=dbt2,app=pgxc,client=10.87.3.185 FATAL:  terminating connection due to administrator command
+2015-08-25 12:38:08 EDT [26534]: [2-1] user=,db=,app=,client= LOG:  autovacuum launcher shutting down
+2015-08-25 12:38:08 EDT [26531]: [3-1] user=,db=,app=,client= LOG:  shutting down
+2015-08-25 12:38:08 EDT [26531]: [4-1] user=,db=,app=,client= LOG:  checkpoint starting: shutdown immediate
+2015-08-25 12:38:08 EDT [26531]: [5-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 1 recycled; write=0.010 s, sync=0.001 s, total=0.018 s; sync files=1, longest=0.001 s, average=0.001 s; distance=37 kB, estimate=10797 kB
+2015-08-25 12:38:08 EDT [26531]: [6-1] user=,db=,app=,client= LOG:  database system is shut down

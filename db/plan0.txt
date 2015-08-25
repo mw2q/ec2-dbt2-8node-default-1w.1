@@ -1,0 +1,371 @@
+--------------------
+Delivery Transaction
+--------------------
+EXPLAIN 
+SELECT no_o_id FROM new_order WHERE no_w_id = 1 AND no_d_id = 1;
+
+                                                                                                                                      QUERY PLAN                                                                                                                                      
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_1_1,datanode_1_2,datanode_2_1,datanode_2_2,datanode_3_1,datanode_3_2,datanode_4_1,datanode_4_2,datanode_5_1,datanode_5_2,datanode_6_1,datanode_6_2,datanode_7_1,datanode_7_2,datanode_8_1,datanode_8_2)  (cost=41.38..110.88 rows=900 width=4)
+   ->  Bitmap Heap Scan on new_order  (cost=41.38..110.88 rows=900 width=4)
+         Recheck Cond: ((no_w_id = 1) AND (no_d_id = 1))
+         ->  Bitmap Index Scan on pk_new_order  (cost=0.00..41.16 rows=900 width=0)
+               Index Cond: ((no_w_id = 1) AND (no_d_id = 1))
+(5 rows)
+
+EXPLAIN 
+DELETE FROM new_order WHERE no_o_id = 1 AND no_w_id = 1 AND no_d_id = 1;
+
+                                        QUERY PLAN                                         
+-------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..8.18 rows=1 width=22)
+   ->  Delete on new_order  (cost=0.16..8.18 rows=1 width=22)
+         ->  Index Scan using pk_new_order on new_order  (cost=0.16..8.18 rows=1 width=22)
+               Index Cond: ((no_w_id = 1) AND (no_d_id = 1) AND (no_o_id = 1))
+(4 rows)
+
+EXPLAIN 
+SELECT o_c_id FROM orders WHERE o_id = 1 AND o_w_id = 1 AND o_d_id = 1;
+
+                                   QUERY PLAN                                   
+--------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..34.59 rows=16 width=4)
+   ->  Index Scan using pk_orders on orders  (cost=0.16..34.59 rows=16 width=4)
+         Index Cond: ((o_w_id = 1) AND (o_d_id = 1) AND (o_id = 1))
+(3 rows)
+
+EXPLAIN 
+UPDATE orders SET o_carrier_id = 1 WHERE o_id = 1 AND o_w_id = 1 AND o_d_id = 1;
+
+                                      QUERY PLAN                                       
+---------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..34.59 rows=16 width=42)
+   ->  Update on orders  (cost=0.16..34.59 rows=16 width=42)
+         ->  Index Scan using pk_orders on orders  (cost=0.16..34.59 rows=16 width=42)
+               Index Cond: ((o_w_id = 1) AND (o_d_id = 1) AND (o_id = 1))
+(4 rows)
+
+EXPLAIN 
+UPDATE order_line SET ol_delivery_d = current_timestamp WHERE ol_o_id = 1 AND ol_w_id = 1 AND ol_d_id = 1;
+
+                                           QUERY PLAN                                            
+-------------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.17..277.25 rows=155 width=67)
+   ->  Update on order_line  (cost=0.17..277.25 rows=155 width=67)
+         ->  Index Scan using pk_order_line on order_line  (cost=0.17..277.25 rows=155 width=67)
+               Index Cond: ((ol_w_id = 1) AND (ol_d_id = 1) AND (ol_o_id = 1))
+(4 rows)
+
+EXPLAIN 
+SELECT SUM(ol_amount * ol_quantity) FROM order_line WHERE ol_o_id = 1 AND ol_w_id = 1 AND ol_d_id = 1;
+
+                                              QUERY PLAN                                              
+------------------------------------------------------------------------------------------------------
+ Aggregate  (cost=277.25..277.26 rows=1 width=8)
+   ->  Remote Subquery Scan on all (datanode_4_1)  (cost=0.17..276.47 rows=155 width=8)
+         ->  Aggregate  (cost=0.17..276.47 rows=1 width=8)
+               ->  Index Scan using pk_order_line on order_line  (cost=0.17..276.47 rows=155 width=8)
+                     Index Cond: ((ol_w_id = 1) AND (ol_d_id = 1) AND (ol_o_id = 1))
+(5 rows)
+
+EXPLAIN 
+UPDATE customer SET c_delivery_cnt = c_delivery_cnt + 1, c_balance = c_balance + 1 WHERE c_id = 1 AND c_w_id = 1 AND c_d_id = 1;
+
+                                         QUERY PLAN                                         
+--------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..35.31 rows=16 width=565)
+   ->  Update on customer  (cost=0.16..35.31 rows=16 width=565)
+         ->  Index Scan using pk_customer on customer  (cost=0.16..35.31 rows=16 width=565)
+               Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_id = 1))
+(4 rows)
+
+---------------------
+New-Order Transaction
+---------------------
+EXPLAIN 
+SELECT w_tax FROM warehouse WHERE w_id = 1;
+
+                                  QUERY PLAN                                  
+------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..1.01 rows=1 width=4)
+   ->  Seq Scan on warehouse  (cost=0.00..1.01 rows=1 width=4)
+         Filter: (w_id = 1)
+(3 rows)
+
+EXPLAIN 
+SELECT d_tax, d_next_o_id FROM district WHERE d_w_id = 1 AND d_id = 1;
+
+                                  QUERY PLAN                                  
+------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..8.15 rows=1 width=8)
+   ->  Seq Scan on district  (cost=0.00..8.15 rows=1 width=8)
+         Filter: ((d_w_id = 1) AND (d_id = 1))
+(3 rows)
+
+EXPLAIN 
+UPDATE district SET d_next_o_id = d_next_o_id + 1 WHERE d_w_id = 1 AND d_id = 1;
+
+                                   QUERY PLAN                                   
+--------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..8.15 rows=1 width=102)
+   ->  Update on district  (cost=0.00..8.15 rows=1 width=102)
+         ->  Seq Scan on district  (cost=0.00..8.15 rows=1 width=102)
+               Filter: ((d_w_id = 1) AND (d_id = 1))
+(4 rows)
+
+EXPLAIN 
+SELECT c_discount, c_last, c_credit FROM customer WHERE c_w_id = 1 AND c_d_id = 1 AND c_id = 1;
+
+                                     QUERY PLAN                                      
+-------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..35.15 rows=16 width=19)
+   ->  Index Scan using pk_customer on customer  (cost=0.16..35.15 rows=16 width=19)
+         Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_id = 1))
+(3 rows)
+
+EXPLAIN 
+INSERT INTO new_order (no_o_id, no_d_id, no_w_id) VALUES (-1, 1, 1);
+
+                                    QUERY PLAN                                    
+----------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_6_1)  (cost=0.00..0.01 rows=1 width=0)
+   ->  Insert on new_order  (cost=0.00..0.01 rows=1 width=0)
+         ->  Remote Subquery Scan on local node  (cost=0.00..0.01 rows=1 width=0)
+               Distribute results by H: '-1'::integer
+               ->  Result  (cost=0.00..0.01 rows=1 width=0)
+(5 rows)
+
+EXPLAIN 
+INSERT INTO orders (o_id, o_d_id, o_w_id, o_c_id, o_entry_d, o_carrier_id, o_ol_cnt, o_all_local) VALUES (-1, 1, 1, 1, current_timestamp, NULL, 1, 1);
+
+                                    QUERY PLAN                                    
+----------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_6_1)  (cost=0.00..0.01 rows=1 width=0)
+   ->  Insert on orders  (cost=0.00..0.01 rows=1 width=0)
+         ->  Remote Subquery Scan on local node  (cost=0.00..0.01 rows=1 width=0)
+               Distribute results by H: '-1'::integer
+               ->  Result  (cost=0.00..0.01 rows=1 width=0)
+(5 rows)
+
+EXPLAIN 
+SELECT i_price, i_name, i_data FROM item WHERE i_id = 1;
+
+                                  QUERY PLAN                                   
+-------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.17..8.19 rows=1 width=61)
+   ->  Index Scan using pk_item on item  (cost=0.17..8.19 rows=1 width=61)
+         Index Cond: (i_id = 1)
+(3 rows)
+
+EXPLAIN 
+SELECT s_quantity, s_dist_01, s_data FROM stock WHERE s_i_id = 1 AND s_w_id = 1;
+
+                                  QUERY PLAN                                   
+-------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.17..8.19 rows=1 width=67)
+   ->  Index Scan using pk_stock on stock  (cost=0.17..8.19 rows=1 width=67)
+         Index Cond: ((s_w_id = 1) AND (s_i_id = 1))
+(3 rows)
+
+EXPLAIN 
+UPDATE stock SET s_quantity = s_quantity - 10 WHERE s_i_id = 1 AND s_w_id = 1;
+
+                                     QUERY PLAN                                     
+------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.17..8.19 rows=1 width=321)
+   ->  Update on stock  (cost=0.17..8.19 rows=1 width=321)
+         ->  Index Scan using pk_stock on stock  (cost=0.17..8.19 rows=1 width=321)
+               Index Cond: ((s_w_id = 1) AND (s_i_id = 1))
+(4 rows)
+
+EXPLAIN 
+INSERT INTO order_line (ol_o_id, ol_d_id, ol_w_id, ol_number, ol_i_id, ol_supply_w_id, ol_delivery_d, ol_quantity, ol_amount, ol_dist_info) VALUES (-1, 1, 1, 1, 1, 1, NULL, 1, 1.0, 'hello kitty');
+
+                                    QUERY PLAN                                    
+----------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_6_1)  (cost=0.00..0.01 rows=1 width=0)
+   ->  Insert on order_line  (cost=0.00..0.01 rows=1 width=0)
+         ->  Remote Subquery Scan on local node  (cost=0.00..0.01 rows=1 width=0)
+               Distribute results by H: '-1'::integer
+               ->  Result  (cost=0.00..0.01 rows=1 width=0)
+(5 rows)
+
+------------------------
+Order-Status Transaction
+------------------------
+EXPLAIN 
+SELECT c_id FROM customer WHERE c_w_id = 1 AND c_d_id = 1 AND c_last = 'BARBARBAR' ORDER BY c_first ASC;
+
+                                                                                                                                    QUERY PLAN                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_1_1,datanode_1_2,datanode_2_1,datanode_2_2,datanode_3_1,datanode_3_2,datanode_4_1,datanode_4_2,datanode_5_1,datanode_5_2,datanode_6_1,datanode_6_2,datanode_7_1,datanode_7_2,datanode_8_1,datanode_8_2)  (cost=0.16..8.18 rows=1 width=16)
+   ->  Index Only Scan using i_customer on customer  (cost=0.16..8.18 rows=1 width=16)
+         Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_last = 'BARBARBAR'::text))
+(3 rows)
+
+EXPLAIN 
+SELECT c_first, c_middle, c_last, c_balance FROM customer WHERE c_w_id = 1 AND c_d_id = 1 AND c_id = 1;
+
+                                     QUERY PLAN                                      
+-------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..35.15 rows=16 width=32)
+   ->  Index Scan using pk_customer on customer  (cost=0.16..35.15 rows=16 width=32)
+         Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_id = 1))
+(3 rows)
+
+EXPLAIN 
+SELECT o_id, o_carrier_id, o_entry_d, o_ol_cnt FROM orders WHERE o_w_id = 1 AND o_d_id = 1 AND o_c_id = 1 ORDER BY o_id DESC;
+
+                                                                                                                                    QUERY PLAN                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_1_1,datanode_1_2,datanode_2_1,datanode_2_2,datanode_3_1,datanode_3_2,datanode_4_1,datanode_4_2,datanode_5_1,datanode_5_2,datanode_6_1,datanode_6_2,datanode_7_1,datanode_7_2,datanode_8_1,datanode_8_2)  (cost=8.19..8.20 rows=1 width=20)
+   ->  Sort  (cost=8.19..8.20 rows=1 width=20)
+         Sort Key: o_id DESC
+         ->  Index Scan using i_orders on orders  (cost=0.16..8.18 rows=1 width=20)
+               Index Cond: ((o_w_id = 1) AND (o_d_id = 1) AND (o_c_id = 1))
+(5 rows)
+
+EXPLAIN 
+SELECT ol_i_id, ol_supply_w_id, ol_quantity, ol_amount, ol_delivery_d FROM order_line WHERE ol_w_id = 1 AND ol_d_id = 1 AND ol_o_id = 1;
+
+                                        QUERY PLAN                                         
+-------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.17..276.47 rows=155 width=24)
+   ->  Index Scan using pk_order_line on order_line  (cost=0.17..276.47 rows=155 width=24)
+         Index Cond: ((ol_w_id = 1) AND (ol_d_id = 1) AND (ol_o_id = 1))
+(3 rows)
+
+-------------------
+Payment Transaction
+-------------------
+EXPLAIN 
+SELECT w_name, w_street_1, w_street_2, w_city, w_state, w_zip FROM warehouse WHERE w_id = 1;
+
+                                  QUERY PLAN                                   
+-------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..1.01 rows=1 width=82)
+   ->  Seq Scan on warehouse  (cost=0.00..1.01 rows=1 width=82)
+         Filter: (w_id = 1)
+(3 rows)
+
+EXPLAIN 
+UPDATE warehouse SET w_ytd = w_ytd + 1.0 WHERE w_id = 1;
+
+                                   QUERY PLAN                                   
+--------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..1.02 rows=1 width=105)
+   ->  Update on warehouse  (cost=0.00..1.02 rows=1 width=105)
+         ->  Seq Scan on warehouse  (cost=0.00..1.02 rows=1 width=105)
+               Filter: (w_id = 1)
+(4 rows)
+
+EXPLAIN 
+SELECT d_name, d_street_1, d_street_2, d_city, d_state, d_zip FROM district WHERE d_id = 1 AND d_w_id = 1;
+
+                                  QUERY PLAN                                   
+-------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..8.15 rows=1 width=71)
+   ->  Seq Scan on district  (cost=0.00..8.15 rows=1 width=71)
+         Filter: ((d_id = 1) AND (d_w_id = 1))
+(3 rows)
+
+EXPLAIN 
+UPDATE district SET d_ytd = d_ytd + 1.0 WHERE d_id = 1 AND d_w_id = 1;
+
+                                   QUERY PLAN                                   
+--------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..8.16 rows=1 width=102)
+   ->  Update on district  (cost=0.00..8.16 rows=1 width=102)
+         ->  Seq Scan on district  (cost=0.00..8.16 rows=1 width=102)
+               Filter: ((d_id = 1) AND (d_w_id = 1))
+(4 rows)
+
+EXPLAIN 
+SELECT c_id FROM customer WHERE c_w_id = 1 AND c_d_id = 1 AND c_last = 'BARBARBAR' ORDER BY c_first ASC;
+
+                                                                                                                                    QUERY PLAN                                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_1_1,datanode_1_2,datanode_2_1,datanode_2_2,datanode_3_1,datanode_3_2,datanode_4_1,datanode_4_2,datanode_5_1,datanode_5_2,datanode_6_1,datanode_6_2,datanode_7_1,datanode_7_2,datanode_8_1,datanode_8_2)  (cost=0.16..8.18 rows=1 width=16)
+   ->  Index Only Scan using i_customer on customer  (cost=0.16..8.18 rows=1 width=16)
+         Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_last = 'BARBARBAR'::text))
+(3 rows)
+
+EXPLAIN 
+SELECT c_first, c_middle, c_last, c_street_1, c_street_2, c_city, c_state, c_zip, c_phone, c_since, c_credit, c_credit_lim, c_discount, c_balance, c_data, c_ytd_payment FROM customer WHERE c_w_id = 1 AND c_d_id = 1 AND c_id = 1;
+
+                                      QUERY PLAN                                      
+--------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..35.15 rows=16 width=535)
+   ->  Index Scan using pk_customer on customer  (cost=0.16..35.15 rows=16 width=535)
+         Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_id = 1))
+(3 rows)
+
+EXPLAIN 
+UPDATE customer SET c_balance = c_balance - 1.0, c_ytd_payment = c_ytd_payment + 1 WHERE c_id = 1 AND c_w_id = 1 AND c_d_id = 1;
+
+                                         QUERY PLAN                                         
+--------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..35.31 rows=16 width=565)
+   ->  Update on customer  (cost=0.16..35.31 rows=16 width=565)
+         ->  Index Scan using pk_customer on customer  (cost=0.16..35.31 rows=16 width=565)
+               Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_id = 1))
+(4 rows)
+
+EXPLAIN 
+UPDATE customer SET c_balance = c_balance - 1.0, c_ytd_payment = c_ytd_payment + 1, c_data = 'hello dogger' WHERE c_id = 1 AND c_w_id
+ = 1 AND c_d_id = 1;
+
+                                         QUERY PLAN                                         
+--------------------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.16..35.31 rows=16 width=162)
+   ->  Update on customer  (cost=0.16..35.31 rows=16 width=162)
+         ->  Index Scan using pk_customer on customer  (cost=0.16..35.31 rows=16 width=162)
+               Index Cond: ((c_w_id = 1) AND (c_d_id = 1) AND (c_id = 1))
+(4 rows)
+
+EXPLAIN 
+INSERT INTO history (h_c_id, h_c_d_id, h_c_w_id, h_d_id, h_w_id, h_date, h_amount, h_data) VALUES (1, 1, 1, 1, 1, current_timestamp, 1.0, 'ab    cd');
+
+                                    QUERY PLAN                                    
+----------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..0.01 rows=1 width=0)
+   ->  Insert on history  (cost=0.00..0.01 rows=1 width=0)
+         ->  Remote Subquery Scan on local node  (cost=0.00..0.01 rows=1 width=0)
+               Distribute results by H: 1
+               ->  Result  (cost=0.00..0.01 rows=1 width=0)
+(5 rows)
+
+-----------------------
+Stock-Level Transaction
+-----------------------
+EXPLAIN 
+SELECT d_next_o_id FROM district WHERE d_w_id = 1 AND d_id = 1;
+
+                                  QUERY PLAN                                  
+------------------------------------------------------------------------------
+ Remote Subquery Scan on all (datanode_4_1)  (cost=0.00..8.15 rows=1 width=4)
+   ->  Seq Scan on district  (cost=0.00..8.15 rows=1 width=4)
+         Filter: ((d_w_id = 1) AND (d_id = 1))
+(3 rows)
+
+EXPLAIN 
+SELECT count(*) FROM order_line, stock, district WHERE d_id = 1 AND d_w_id = 1 AND d_id = ol_d_id AND d_w_id = ol_w_id AND ol_i_id = s_i_id AND ol_w_id = s_w_id AND s_quantity < 15 AND ol_o_id BETWEEN (1) AND (20);
+
+                                                                                                                                                      QUERY PLAN                                                                                                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregate  (cost=1110.51..1110.52 rows=1 width=0)
+   ->  Nested Loop  (cost=0.34..1110.51 rows=2 width=0)
+         ->  Remote Subquery Scan on all (datanode_4_1)  (cost=100.00..108.16 rows=1 width=8)
+               ->  Seq Scan on district  (cost=0.00..8.15 rows=1 width=8)
+                     Filter: ((d_id = 1) AND (d_w_id = 1))
+         ->  Materialize  (cost=100.34..1202.37 rows=2 width=8)
+               ->  Remote Subquery Scan on all (datanode_1_1,datanode_1_2,datanode_2_1,datanode_2_2,datanode_3_1,datanode_3_2,datanode_4_1,datanode_4_2,datanode_5_1,datanode_5_2,datanode_6_1,datanode_6_2,datanode_7_1,datanode_7_2,datanode_8_1,datanode_8_2)  (cost=100.34..1202.36 rows=2 width=8)
+                     ->  Nested Loop  (cost=0.34..1102.34 rows=2 width=8)
+                           ->  Remote Subquery Scan on all (datanode_1_1,datanode_1_2,datanode_2_1,datanode_2_2,datanode_3_1,datanode_3_2,datanode_4_1,datanode_4_2,datanode_5_1,datanode_5_2,datanode_6_1,datanode_6_2,datanode_7_1,datanode_7_2,datanode_8_1,datanode_8_2)  (cost=100.17..313.11 rows=116 width=12)
+                                 Distribute results by H: ol_i_id
+                                 ->  Index Scan using pk_order_line on order_line  (cost=0.17..211.14 rows=116 width=12)
+                                       Index Cond: ((ol_w_id = 1) AND (ol_d_id = 1) AND (ol_o_id >= 1) AND (ol_o_id <= 20))
+                           ->  Index Only Scan using pk_stock on stock  (cost=0.17..7.67 rows=1 width=8)
+                                 Index Cond: ((s_w_id = 1) AND (s_i_id = order_line.ol_i_id) AND (s_quantity < '15'::double precision))
+(14 rows)
+
